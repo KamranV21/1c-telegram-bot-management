@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d45dbd5-cbd3-408a-901c-ba25bf8dea36">
+  <producedTypes>
+    <objectType typeId="d892503e-28a7-44ac-9627-13e82920906e" valueTypeId="83090e63-369e-467f-9871-96bdb2667c7d"/>
+    <refType typeId="53f26864-f660-49c6-a3de-3a2a4a74a36e" valueTypeId="937dd540-1d0a-4cf5-9652-8559f65bab09"/>
+    <selectionType typeId="27e055f9-8678-4ee8-87eb-91af93f487a8" valueTypeId="2b2833e8-7deb-446b-93d7-c54724a7f7de"/>
+    <listType typeId="f776572d-f2a4-46a5-925a-a3c90a6b7ecb" valueTypeId="1e52533e-22cb-49e2-bad2-877d3a72d985"/>
+    <managerType typeId="6a8aeb66-7a58-4329-bf63-289e83f7bc7c" valueTypeId="28da04e8-9c2b-43a6-b464-b99c2a6aa66e"/>
+  </producedTypes>
+  <name>TBM_ДействияБотовTelegram</name>
+  <synonym>
+    <key>en</key>
+    <value>Telegram bot actions</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Действия ботов Telegram</value>
+  </synonym>
+  <synonym>
+    <key>az</key>
+    <value>Telegram bot əməliyyatları</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.TBM_ДействияБотовTelegram.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>en</key>
+    <value>Telegram bot action</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Действие бота Telegram</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>az</key>
+    <value>Telegram bot əməliyyatı</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.TBM_ДействияБотовTelegram.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="a8ae13e4-df62-43bc-96d8-4edb911c276c">
+    <name>ТипДействия</name>
+    <synonym>
+      <key>en</key>
+      <value>Action type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип действия</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Əməliyyət tipi</value>
+    </synonym>
+    <type>
+      <types>EnumRef.TBM_ТипыДействийБотовTelegram</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.TBM_ТипыДействийБотовTelegram.EnumValue.ОтправкаОтчета</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0575f132-7bdd-44f9-9d88-9a36135a6212">
+    <name>ПроизвольныйКод</name>
+    <synonym>
+      <key>en</key>
+      <value>Custom code</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольный код</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Sərbəst kod</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="da15dcb7-b5c1-49b4-9f04-3a2395ee3f3e">
+    <producedTypes>
+      <objectType typeId="35935108-9750-48dc-842c-9433a69e72f3" valueTypeId="c197cf9a-0924-420c-adf4-63fcc75a3d47"/>
+      <rowType typeId="1d000f87-9940-4e5b-b8fe-97aa8e0b6961" valueTypeId="fb6cebfd-8ddf-440d-9fad-825f406bbe06"/>
+    </producedTypes>
+    <name>Отчеты</name>
+    <synonym>
+      <key>en</key>
+      <value>Reports</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отчеты</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Hesabatlar</value>
+    </synonym>
+    <attributes uuid="d3c44ed2-3b8a-49de-ba68-021c037d8faa">
+      <name>Отчет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отчет</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВариантыОтчетов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="9aa08a9a-786e-4c37-bbab-4257b0f632af">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>en</key>
+      <value>Element form</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Elementin forması</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

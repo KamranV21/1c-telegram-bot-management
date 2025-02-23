@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1de123d5-1026-4332-9c46-6112300c7dff">
+  <producedTypes>
+    <refType typeId="024e4d69-8a09-4852-82e3-fc01f28c17cf" valueTypeId="654c99c5-a297-47d1-b327-c97e07b283ec"/>
+    <listType typeId="121d567d-e008-40bb-8c98-0b55ffd7253a" valueTypeId="4369fbba-5671-4b2a-a612-aa41fd6b7e1d"/>
+    <managerType typeId="db0088a6-00b4-4cea-944d-0dbd7fcf0556" valueTypeId="f4026de1-8813-459a-bfc7-2a3fbffab5d2"/>
+  </producedTypes>
+  <name>TBM_ВариантыВзаимодействияСБотамиTelegram</name>
+  <synonym>
+    <key>en</key>
+    <value>Telegram bot interaction variants</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты взаимодействия с ботами Telegram</value>
+  </synonym>
+  <synonym>
+    <key>az</key>
+    <value>Telegram botları ilə əlaqə variantları</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5f69494f-b2ca-4028-a1c6-1e62ced692e4">
+    <name>Вебхук</name>
+    <synonym>
+      <key>en</key>
+      <value>Webhook</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вебхук</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Vebxuk</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e5f88f14-187e-4020-832a-5a655510b3f1">
+    <name>РегламентноеЗадание</name>
+    <synonym>
+      <key>en</key>
+      <value>Scheduled task</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентное задание</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Reqlament tapşırığı</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

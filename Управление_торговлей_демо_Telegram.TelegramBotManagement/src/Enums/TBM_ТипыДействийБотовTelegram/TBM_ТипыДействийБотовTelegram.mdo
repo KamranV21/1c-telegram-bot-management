@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c75c3a18-dfe9-4e87-bb0d-670eda9bac82">
+  <producedTypes>
+    <refType typeId="35719f4d-5f9e-471a-9a74-555de5407bdb" valueTypeId="55b2f15b-d858-469f-b526-10a85d24c0df"/>
+    <listType typeId="c98ecf58-ad19-4cae-91bd-f773afd79175" valueTypeId="fe98222f-3f6e-41fd-ae16-7bb6b9f215b1"/>
+    <managerType typeId="37af96f5-4bc5-4c84-87fa-de3134a54e28" valueTypeId="0556b829-2893-4f24-b7c9-cc82f6360c9e"/>
+  </producedTypes>
+  <name>TBM_ТипыДействийБотовTelegram</name>
+  <synonym>
+    <key>en</key>
+    <value>Telegram bot action types</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы действий ботов Telegram</value>
+  </synonym>
+  <synonym>
+    <key>az</key>
+    <value>Telegram botların əməliyyət tipləri</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="957a7afa-c85c-45ab-af6f-41dd1edd5e12">
+    <name>ОтправкаОтчета</name>
+    <synonym>
+      <key>en</key>
+      <value>Report sending</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отправка отчета</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Hesabatın göndərilməsi</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4660c5f9-b160-4cb8-9533-ea6a66928a1f">
+    <name>ПроизвольноеДействие</name>
+    <synonym>
+      <key>en</key>
+      <value>Arbitrary action</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольное действие</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Sərbəst əməliyyət</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

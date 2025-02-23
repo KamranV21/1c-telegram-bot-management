@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a83eedd1-6d3d-4523-b652-b0820dd722da">
+  <producedTypes>
+    <objectType typeId="a3fdd079-5361-4945-855e-a944ecffc626" valueTypeId="837d7214-a436-4525-83e7-46744470b434"/>
+    <refType typeId="bc0e203c-a81f-4235-a2da-932e7531e9ad" valueTypeId="b6714d60-c183-4199-96b4-9e7e52df3a66"/>
+    <selectionType typeId="eba052b8-f63a-487e-ae61-e190936e6ec3" valueTypeId="a4d557e9-9e24-4a89-8553-33eb466ca820"/>
+    <listType typeId="c4841abe-8eba-4df4-943a-ed46e53913c1" valueTypeId="3e061a9f-6d3f-43d8-87ee-43f537c81e47"/>
+    <managerType typeId="be9ffb08-1f8b-4949-81ab-bc69b4b91623" valueTypeId="2e87cb91-25c3-43ad-841d-e767d48f35f1"/>
+  </producedTypes>
+  <name>TBM_БотыTelegram</name>
+  <synonym>
+    <key>en</key>
+    <value>Telegram bots</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Боты Telegram</value>
+  </synonym>
+  <synonym>
+    <key>az</key>
+    <value>Telegram botlar</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.TBM_БотыTelegram.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>en</key>
+    <value>Telegram bot</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Бот Telegram</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>az</key>
+    <value>Telegram bot</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>50</codeLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.TBM_БотыTelegram.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="3bd1dc67-5600-438f-9a0c-32831976dc7e">
+    <name>ВариантВзаимодействия</name>
+    <synonym>
+      <key>en</key>
+      <value>Interaction variant</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант взаимодействия</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Əlaqə variantı</value>
+    </synonym>
+    <type>
+      <types>EnumRef.TBM_ВариантыВзаимодействияСБотамиTelegram</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="144ef124-1d2b-451d-8fc2-c6841bd365f3">
+    <name>ИдентификаторРегламентногоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор регламентного задания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор для регламентного задания</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8c0c1824-2536-4900-8354-099e2e209719">
+    <name>ПользовательРегламентногоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь регламентного задания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="18dcfe6a-2b6e-4158-88a2-8d048ab4b9df">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>en</key>
+      <value>Element form</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Elementin forması</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

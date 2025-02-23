@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="49b6593c-3227-4c3d-8939-81e3011071d5">
+  <name>TelegramBotManagement</name>
+  <synonym>
+    <key>en</key>
+    <value>Telegran bot</value>
+  </synonym>
+  <synonym>
+    <key>az</key>
+    <value>Telegran bot</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Управление ботами Telegram</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d5979bbd-3be4-499b-8168-ea80b246d1ea"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="1396d35f-d60f-426b-9c52-32fe8c9b185f"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="9685a67e-8c3f-4715-8c62-8824831978a8"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="4796382a-ac1d-4272-afee-dd7eab51af6e"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="de205927-55eb-4d13-b0f7-2535dcd01048"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e7060c47-159c-4052-961a-4a2f38b855e2"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="ce11b3e8-47cc-43d5-8c29-9ad30f237b81"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>TBM_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.TBM_АдминистраторБотовTelegram</defaultRoles>
+  <vendor>Камран Велиев</vendor>
+  <version>0.0.1</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.23</compatibilityMode>
+  <languages uuid="fb98de8f-91b8-45e2-b63c-41d1d125c8ce" extendedConfigurationObject="32081da5-2cbf-4093-9342-47f6ed851d2c">
+    <name>Английский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>en</languageCode>
+  </languages>
+  <languages uuid="fb149282-a93c-42fd-8cd1-3ab6fdfcaf8f" extendedConfigurationObject="0663bf5b-bcba-4a40-a862-a0b3baa2d884">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <languages uuid="c3181e40-5efd-4443-87cd-8ddf14a09b0d" extendedConfigurationObject="d0af2904-4c9f-4595-95c4-f0f4a6af908a">
+    <name>Азербайджанский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>az</languageCode>
+  </languages>
+  <commonPictures>CommonPicture.Успешно32</commonPictures>
+  <roles>Role.TBM_АдминистраторБотовTelegram</roles>
+  <commonModules>CommonModule.TBM_РаботаСБотамиTelegram</commonModules>
+  <commonModules>CommonModule.TBM_РаботаСJSON</commonModules>
+  <httpServices>HTTPService.TBM_TelegramWebhook</httpServices>
+  <scheduledJobs>ScheduledJob.TBM_ВзаимодействиеСБотамиTelegram</scheduledJobs>
+  <catalogs>Catalog.TBM_БотыTelegram</catalogs>
+  <catalogs>Catalog.TBM_ДействияБотовTelegram</catalogs>
+  <catalogs>Catalog.TBM_ЧатыTelegram</catalogs>
+  <catalogs>Catalog.ВариантыОтчетов</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <enums>Enum.TBM_ТипыДействийБотовTelegram</enums>
+  <enums>Enum.TBM_ВариантыВзаимодействияСБотамиTelegram</enums>
+  <informationRegisters>InformationRegister.TBM_КомандыБотовTelegram</informationRegisters>
+  <informationRegisters>InformationRegister.TBM_ОбработанныеСообщенияБотовTelegram</informationRegisters>
+</mdclass:Configuration>
