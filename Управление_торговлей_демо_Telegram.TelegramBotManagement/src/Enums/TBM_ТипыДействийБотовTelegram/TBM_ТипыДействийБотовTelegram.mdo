@@ -35,6 +35,36 @@
       <value>Hesabatın göndərilməsi</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="ba17f013-365a-46fa-93aa-0fcf520017c8">
+    <name>МногоэтапноеДействие</name>
+    <synonym>
+      <key>en</key>
+      <value>Multi-step action</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Многоэтапное действие</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Çox mərhələli əməliyyət</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ded3ddd2-5359-499b-a442-2399acc1def7">
+    <name>Этап</name>
+    <synonym>
+      <key>en</key>
+      <value>Action</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Этап</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Mərhələ</value>
+    </synonym>
+  </enumValues>
   <enumValues uuid="4660c5f9-b160-4cb8-9533-ea6a66928a1f">
     <name>ПроизвольноеДействие</name>
     <synonym>

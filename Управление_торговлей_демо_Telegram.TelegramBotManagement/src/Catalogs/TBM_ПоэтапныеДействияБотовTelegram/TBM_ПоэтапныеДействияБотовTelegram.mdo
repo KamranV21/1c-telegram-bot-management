@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96041617-ce69-47d1-b45a-68b1032baaba">
+  <producedTypes>
+    <objectType typeId="095b260f-d2ba-4ea1-9e8e-e5ce8205c400" valueTypeId="46e9c95f-2619-43f1-8c1f-396ef0834106"/>
+    <refType typeId="9b266d8e-444c-4659-9669-d40bca17b671" valueTypeId="98513a46-8881-4d2f-a362-a75eed1f7b37"/>
+    <selectionType typeId="d86f8b58-7bce-4db4-9c0d-0fbb42a9e772" valueTypeId="57efb995-9a84-4d39-9463-b17167a452d7"/>
+    <listType typeId="3cfcd56b-b793-4804-9da7-cb7b36a74f16" valueTypeId="b90d86a4-57b3-409a-8d9d-f79fb92364e3"/>
+    <managerType typeId="169c11b5-029c-413b-8c3a-9fdd69724249" valueTypeId="6143be30-5415-4e99-ac1b-bc596783a97f"/>
+  </producedTypes>
+  <name>TBM_ПоэтапныеДействияБотовTelegram</name>
+  <synonym>
+    <key>en</key>
+    <value>Step-by-step Telegram bot actions</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Поэтапные действия ботов Telegram</value>
+  </synonym>
+  <synonym>
+    <key>az</key>
+    <value>Telegram botların mərhələli əməliyyətləri</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.TBM_ПоэтапныеДействияБотовTelegram.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>en</key>
+    <value>Step-by-step Telegram bot action</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Поэтапное действие бота Telegram</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>az</key>
+    <value>Telegram bot mərhələli əməliyyəti</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="87ff3c53-ed1c-4753-8724-ade1e9da7bad">
+    <name>Бот</name>
+    <synonym>
+      <key>en</key>
+      <value>Bot</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Бот</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Bot</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.TBM_БотыTelegram</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9f626872-57f5-4234-884c-562c443c25a6">
+    <name>Чат</name>
+    <synonym>
+      <key>en</key>
+      <value>Chat</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Чат</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Söhbət</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.TBM_ЧатыTelegram</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d5a84c78-651b-47ff-8fef-b0dcfa80f3e4">
+    <name>Действие</name>
+    <synonym>
+      <key>en</key>
+      <value>Action</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Действие</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Əməliyyət</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.TBM_ДействияБотовTelegram</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f9859e03-a499-4cf9-96f4-151c6f09621f">
+    <name>Завершено</name>
+    <synonym>
+      <key>en</key>
+      <value>Completed</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Завершено</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Tamamlandı</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0576a12f-59db-49e5-b2ac-39e021d56ffa">
+    <name>Дата</name>
+    <synonym>
+      <key>en</key>
+      <value>Date</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Tarix</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="a4d2c40a-6797-4320-ad9f-7938ad070ebe">
+    <producedTypes>
+      <objectType typeId="9db8828d-3f8c-421f-9dae-d3fe1eacbcfa" valueTypeId="138dcf0d-c58b-4dfe-96ef-51ccb1bb4e64"/>
+      <rowType typeId="ca6a57c0-ac96-43e1-ae98-c7027db18e66" valueTypeId="2193c757-d4f4-400d-885b-1eb8ef048ddc"/>
+    </producedTypes>
+    <name>Этапы</name>
+    <synonym>
+      <key>en</key>
+      <value>Steps</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Этапы</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Mərhələlər</value>
+    </synonym>
+    <attributes uuid="f8cb87b2-de3a-4080-8f02-50ea50152d4a">
+      <name>Действие</name>
+      <synonym>
+        <key>en</key>
+        <value>Action</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Действие</value>
+      </synonym>
+      <synonym>
+        <key>az</key>
+        <value>Əməliyyət</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.TBM_ДействияБотовTelegram</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4d1d11f8-e0c0-43ba-a4fe-60eb7d9c1aa3">
+      <name>Завершено</name>
+      <synonym>
+        <key>en</key>
+        <value>Completed</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Завершено</value>
+      </synonym>
+      <synonym>
+        <key>az</key>
+        <value>Tamamlandı</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="52d9d5a3-2150-4e56-9363-a92f4136be59">
+      <name>СохраненныеЗначения</name>
+      <synonym>
+        <key>en</key>
+        <value>Saved values</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Сохраненные значения</value>
+      </synonym>
+      <synonym>
+        <key>az</key>
+        <value>Saxlanılan dəyərlər</value>
+      </synonym>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

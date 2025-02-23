@@ -40,7 +40,6 @@
   <version>0.0.1</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.23</compatibilityMode>
   <languages uuid="fb98de8f-91b8-45e2-b63c-41d1d125c8ce" extendedConfigurationObject="32081da5-2cbf-4093-9342-47f6ed851d2c">
     <name>Английский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -79,6 +78,7 @@
   <catalogs>Catalog.TBM_ЧатыTelegram</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.TBM_ПоэтапныеДействияБотовTelegram</catalogs>
   <enums>Enum.TBM_ТипыДействийБотовTelegram</enums>
   <enums>Enum.TBM_ВариантыВзаимодействияСБотамиTelegram</enums>
   <informationRegisters>InformationRegister.TBM_КомандыБотовTelegram</informationRegisters>

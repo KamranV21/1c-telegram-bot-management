@@ -134,6 +134,53 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="4abf050b-367a-41e5-ad3c-b5462456ddea">
+    <producedTypes>
+      <objectType typeId="a50695ac-597c-4fdb-b3d6-7afae6985b27" valueTypeId="6f17f1b6-29ec-41cf-8491-18179f427a66"/>
+      <rowType typeId="0a000ab6-560c-449b-a9a9-3cfb6bbf94cb" valueTypeId="32279e03-1b67-4efc-b982-445b6114c4bf"/>
+    </producedTypes>
+    <name>Этапы</name>
+    <synonym>
+      <key>en</key>
+      <value>Steps</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Этапы</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Mərhələlər</value>
+    </synonym>
+    <attributes uuid="271c7913-6002-4f02-a36f-8527c66780bd">
+      <name>Действие</name>
+      <synonym>
+        <key>en</key>
+        <value>Action</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Действие</value>
+      </synonym>
+      <synonym>
+        <key>az</key>
+        <value>Əməliyyət</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.TBM_ДействияБотовTelegram</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.ТипДействия</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.TBM_ТипыДействийБотовTelegram.EnumValue.Этап</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="9aa08a9a-786e-4c37-bbab-4257b0f632af">
     <name>ФормаЭлемента</name>
     <synonym>
