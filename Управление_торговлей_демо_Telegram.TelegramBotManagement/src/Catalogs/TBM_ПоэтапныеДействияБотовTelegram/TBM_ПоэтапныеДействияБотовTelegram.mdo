@@ -182,18 +182,18 @@
       <value>Mərhələlər</value>
     </synonym>
     <attributes uuid="f8cb87b2-de3a-4080-8f02-50ea50152d4a">
-      <name>Действие</name>
+      <name>Этап</name>
       <synonym>
         <key>en</key>
-        <value>Action</value>
+        <value>Step</value>
       </synonym>
       <synonym>
         <key>ru</key>
-        <value>Действие</value>
+        <value>Этап</value>
       </synonym>
       <synonym>
         <key>az</key>
-        <value>Əməliyyət</value>
+        <value>Mərhələ</value>
       </synonym>
       <type>
         <types>CatalogRef.TBM_ДействияБотовTelegram</types>
