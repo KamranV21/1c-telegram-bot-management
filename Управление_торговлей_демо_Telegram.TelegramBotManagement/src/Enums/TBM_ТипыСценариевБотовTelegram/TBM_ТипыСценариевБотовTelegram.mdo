@@ -5,10 +5,10 @@
     <listType typeId="c98ecf58-ad19-4cae-91bd-f773afd79175" valueTypeId="fe98222f-3f6e-41fd-ae16-7bb6b9f215b1"/>
     <managerType typeId="37af96f5-4bc5-4c84-87fa-de3134a54e28" valueTypeId="0556b829-2893-4f24-b7c9-cc82f6360c9e"/>
   </producedTypes>
-  <name>TBM_ТипыДействийБотовTelegram</name>
+  <name>TBM_ТипыСценариевБотовTelegram</name>
   <synonym>
     <key>en</key>
-    <value>Telegram bot action types</value>
+    <value>Telegram bot script types</value>
   </synonym>
   <synonym>
     <key>ru</key>
@@ -16,7 +16,7 @@
   </synonym>
   <synonym>
     <key>az</key>
-    <value>Telegram botların əməliyyət tipləri</value>
+    <value>Telegram botların skript tipləri</value>
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
@@ -36,48 +36,33 @@
     </synonym>
   </enumValues>
   <enumValues uuid="ba17f013-365a-46fa-93aa-0fcf520017c8">
-    <name>МногоэтапноеДействие</name>
+    <name>Общение</name>
     <synonym>
       <key>en</key>
-      <value>Multi-step action</value>
+      <value>Conversation</value>
     </synonym>
     <synonym>
       <key>ru</key>
-      <value>Многоэтапное действие</value>
+      <value>Общение</value>
     </synonym>
     <synonym>
       <key>az</key>
-      <value>Çox mərhələli əməliyyət</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="ded3ddd2-5359-499b-a442-2399acc1def7">
-    <name>Этап</name>
-    <synonym>
-      <key>en</key>
-      <value>Action</value>
-    </synonym>
-    <synonym>
-      <key>ru</key>
-      <value>Этап</value>
-    </synonym>
-    <synonym>
-      <key>az</key>
-      <value>Mərhələ</value>
+      <value>Ünsiyyət</value>
     </synonym>
   </enumValues>
   <enumValues uuid="4660c5f9-b160-4cb8-9533-ea6a66928a1f">
-    <name>ПроизвольноеДействие</name>
+    <name>ПроизвольныйСценарий</name>
     <synonym>
       <key>en</key>
-      <value>Arbitrary action</value>
+      <value>Arbitrary script</value>
     </synonym>
     <synonym>
       <key>ru</key>
-      <value>Произвольное действие</value>
+      <value>Произвольный сценарий</value>
     </synonym>
     <synonym>
       <key>az</key>
-      <value>Sərbəst əməliyyət</value>
+      <value>Sərbəst skripti</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

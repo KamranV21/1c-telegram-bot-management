@@ -690,7 +690,7 @@ Məsələn, 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11</value>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>КомандыБотов.Действие</segments>
+            <segments>КомандыБотов.Сценарий</segments>
           </dataPath>
           <extendedTooltip>
             <name>КомандыБотовДействиеРасширеннаяПодсказка</name>

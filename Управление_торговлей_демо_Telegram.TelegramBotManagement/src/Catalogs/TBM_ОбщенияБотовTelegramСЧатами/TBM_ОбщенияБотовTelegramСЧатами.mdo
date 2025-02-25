@@ -7,35 +7,35 @@
     <listType typeId="3cfcd56b-b793-4804-9da7-cb7b36a74f16" valueTypeId="b90d86a4-57b3-409a-8d9d-f79fb92364e3"/>
     <managerType typeId="169c11b5-029c-413b-8c3a-9fdd69724249" valueTypeId="6143be30-5415-4e99-ac1b-bc596783a97f"/>
   </producedTypes>
-  <name>TBM_ПоэтапныеДействияБотовTelegram</name>
+  <name>TBM_ОбщенияБотовTelegramСЧатами</name>
   <synonym>
     <key>en</key>
-    <value>Step-by-step Telegram bot actions</value>
+    <value>Telegram bot chat conversations</value>
   </synonym>
   <synonym>
     <key>ru</key>
-    <value>Поэтапные действия ботов Telegram</value>
+    <value>Общения ботов Telegram с чатами</value>
   </synonym>
   <synonym>
     <key>az</key>
-    <value>Telegram botların mərhələli əməliyyətləri</value>
+    <value>Telegram botların söhbətlər ilə ünsiyyətlər</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.TBM_ПоэтапныеДействияБотовTelegram.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.TBM_ОбщенияБотовTelegramСЧатами.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>en</key>
-    <value>Step-by-step Telegram bot action</value>
+    <value>Telegram bot chat conversation</value>
   </objectPresentation>
   <objectPresentation>
     <key>ru</key>
-    <value>Поэтапное действие бота Telegram</value>
+    <value>Общение бота Telegram с чатом</value>
   </objectPresentation>
   <objectPresentation>
     <key>az</key>
-    <value>Telegram bot mərhələli əməliyyəti</value>
+    <value>Telegram bot söhbət ilə ünsiyyət</value>
   </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
@@ -94,21 +94,21 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="d5a84c78-651b-47ff-8fef-b0dcfa80f3e4">
-    <name>Действие</name>
+    <name>Сценарий</name>
     <synonym>
       <key>en</key>
-      <value>Action</value>
+      <value>Script</value>
     </synonym>
     <synonym>
       <key>ru</key>
-      <value>Действие</value>
+      <value>Сценарий</value>
     </synonym>
     <synonym>
       <key>az</key>
-      <value>Əməliyyət</value>
+      <value>Skript</value>
     </synonym>
     <type>
-      <types>CatalogRef.TBM_ДействияБотовTelegram</types>
+      <types>CatalogRef.TBM_СценарииБотовTelegram</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -182,21 +182,24 @@
       <value>Mərhələlər</value>
     </synonym>
     <attributes uuid="f8cb87b2-de3a-4080-8f02-50ea50152d4a">
-      <name>Этап</name>
+      <name>НаименованиеЭтапа</name>
       <synonym>
         <key>en</key>
-        <value>Step</value>
+        <value>Step name</value>
       </synonym>
       <synonym>
         <key>ru</key>
-        <value>Этап</value>
+        <value>Наименование этапа</value>
       </synonym>
       <synonym>
         <key>az</key>
-        <value>Mərhələ</value>
+        <value>Mərhələnin adı</value>
       </synonym>
       <type>
-        <types>CatalogRef.TBM_ДействияБотовTelegram</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

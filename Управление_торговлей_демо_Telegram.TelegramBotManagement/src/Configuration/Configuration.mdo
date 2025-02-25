@@ -74,13 +74,13 @@
   <httpServices>HTTPService.TBM_TelegramWebhook</httpServices>
   <scheduledJobs>ScheduledJob.TBM_ВзаимодействиеСБотамиTelegram</scheduledJobs>
   <catalogs>Catalog.TBM_БотыTelegram</catalogs>
-  <catalogs>Catalog.TBM_ДействияБотовTelegram</catalogs>
-  <catalogs>Catalog.TBM_ПоэтапныеДействияБотовTelegram</catalogs>
+  <catalogs>Catalog.TBM_ОбщенияБотовTelegramСЧатами</catalogs>
+  <catalogs>Catalog.TBM_СценарииБотовTelegram</catalogs>
   <catalogs>Catalog.TBM_ЧатыTelegram</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
-  <enums>Enum.TBM_ТипыДействийБотовTelegram</enums>
   <enums>Enum.TBM_ВариантыВзаимодействияСБотамиTelegram</enums>
+  <enums>Enum.TBM_ТипыСценариевБотовTelegram</enums>
   <informationRegisters>InformationRegister.TBM_КомандыБотовTelegram</informationRegisters>
   <informationRegisters>InformationRegister.TBM_ОбработанныеСообщенияБотовTelegram</informationRegisters>
 </mdclass:Configuration>

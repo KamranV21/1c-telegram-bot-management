@@ -38,21 +38,21 @@
     <value>Telegram bot komandası</value>
   </recordPresentation>
   <resources uuid="ff8a90fb-2012-4348-b387-b1d37869fa87">
-    <name>Действие</name>
+    <name>Сценарий</name>
     <synonym>
       <key>en</key>
       <value>Action</value>
     </synonym>
     <synonym>
       <key>ru</key>
-      <value>Действие</value>
+      <value>Сценарий</value>
     </synonym>
     <synonym>
       <key>az</key>
       <value>Əməliyyat</value>
     </synonym>
     <type>
-      <types>CatalogRef.TBM_ДействияБотовTelegram</types>
+      <types>CatalogRef.TBM_СценарииБотовTelegram</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
