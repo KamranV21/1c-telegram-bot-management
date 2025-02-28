@@ -17,6 +17,7 @@
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <defaultRunMode>Checked</defaultRunMode>
     <usePurposes>Checked</usePurposes>
+    <managedApplicationModule>Extended</managedApplicationModule>
     <defaultLanguage>Checked</defaultLanguage>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
     <defaultRoles>Extended</defaultRoles>
@@ -69,8 +70,8 @@
   </languages>
   <commonPictures>CommonPicture.Успешно32</commonPictures>
   <roles>Role.TBM_АдминистраторБотовTelegram</roles>
-  <commonModules>CommonModule.TBM_РаботаСБотамиTelegram</commonModules>
   <commonModules>CommonModule.TBM_РаботаСJSON</commonModules>
+  <commonModules>CommonModule.TBM_РаботаСБотамиTelegram</commonModules>
   <httpServices>HTTPService.TBM_TelegramWebhook</httpServices>
   <scheduledJobs>ScheduledJob.TBM_ВзаимодействиеСБотамиTelegram</scheduledJobs>
   <catalogs>Catalog.TBM_БотыTelegram</catalogs>

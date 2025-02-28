@@ -93,6 +93,32 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="057835ae-82f3-4555-860a-1727927bdcb4">
+    <name>ИдентификаторЧата</name>
+    <synonym>
+      <key>az</key>
+      <value>Söhbətin identifikatoru</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Chat ID</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор чата</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="d5a84c78-651b-47ff-8fef-b0dcfa80f3e4">
     <name>Сценарий</name>
     <synonym>
@@ -163,6 +189,28 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="f8e00606-c00d-48ec-8728-5ba14262f0a9">
+    <name>ХранилищеЗначений</name>
+    <synonym>
+      <key>az</key>
+      <value>Value storage</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Dəyərlərin saxlaması</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище значений</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="a4d2c40a-6797-4320-ad9f-7938ad070ebe">
     <producedTypes>
       <objectType typeId="9db8828d-3f8c-421f-9dae-d3fe1eacbcfa" valueTypeId="138dcf0d-c58b-4dfe-96ef-51ccb1bb4e64"/>
@@ -222,28 +270,6 @@
       </synonym>
       <type>
         <types>Boolean</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="52d9d5a3-2150-4e56-9363-a92f4136be59">
-      <name>СохраненныеЗначения</name>
-      <synonym>
-        <key>en</key>
-        <value>Saved values</value>
-      </synonym>
-      <synonym>
-        <key>ru</key>
-        <value>Сохраненные значения</value>
-      </synonym>
-      <synonym>
-        <key>az</key>
-        <value>Saxlanılan dəyərlər</value>
-      </synonym>
-      <type>
-        <types>ValueStorage</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

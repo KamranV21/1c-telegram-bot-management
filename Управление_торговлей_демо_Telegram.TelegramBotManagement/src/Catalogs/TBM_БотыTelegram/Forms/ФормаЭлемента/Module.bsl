@@ -181,13 +181,13 @@
 	Если ПериодПовтораВТечениеДня > 0 Тогда
 
 		Расписание = Новый РасписаниеРегламентногоЗадания;
-		//@skip-check unknown-method-property
+		//@skip-check bsl-legacy-check-dynamic-feature-access
 		Расписание.Месяцы = Месяцы;
-		//@skip-check unknown-method-property
+		//@skip-check bsl-legacy-check-dynamic-feature-access
 		Расписание.ДниНедели = ДниНедели;
-		//@skip-check unknown-method-property
+		//@skip-check bsl-legacy-check-dynamic-feature-access
 		Расписание.ПериодПовтораВТечениеДня = ПериодПовтораВТечениеДня; // секунды
-		//@skip-check unknown-method-property
+		//@skip-check bsl-legacy-check-dynamic-feature-access
 		Расписание.ПериодПовтораДней = 1; // каждый день
 
 		РасписаниеРегламентногоЗадания = Расписание;
