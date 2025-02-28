@@ -17,6 +17,7 @@
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <defaultRunMode>Checked</defaultRunMode>
     <usePurposes>Checked</usePurposes>
+    <managedApplicationModule>Extended</managedApplicationModule>
     <defaultLanguage>Checked</defaultLanguage>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
     <defaultRoles>Extended</defaultRoles>
@@ -40,8 +41,16 @@
   <version>0.0.1</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.23</compatibilityMode>
-  <languages uuid="fb98de8f-91b8-45e2-b63c-41d1d125c8ce" extendedConfigurationObject="32081da5-2cbf-4093-9342-47f6ed851d2c">
+  <languages uuid="96e529b7-6a22-47de-b4e2-6e5cb7d1a15f" extendedConfigurationObject="368646a3-b13c-48f8-aeca-cb920e854106">
+    <name>Азербайджанский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>az</languageCode>
+  </languages>
+  <languages uuid="c281c46e-8585-4d7e-8604-6d6ec6118a7f" extendedConfigurationObject="4a784fa7-1127-4b1e-a199-2f317bbd174d">
     <name>Английский</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:LanguageExtension">
@@ -59,28 +68,20 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
-  <languages uuid="c3181e40-5efd-4443-87cd-8ddf14a09b0d" extendedConfigurationObject="d0af2904-4c9f-4595-95c4-f0f4a6af908a">
-    <name>Азербайджанский</name>
-    <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:LanguageExtension">
-      <extendedConfigurationObject>Checked</extendedConfigurationObject>
-      <languageCode>Checked</languageCode>
-    </extension>
-    <languageCode>az</languageCode>
-  </languages>
   <commonPictures>CommonPicture.Успешно32</commonPictures>
   <roles>Role.TBM_АдминистраторБотовTelegram</roles>
-  <commonModules>CommonModule.TBM_РаботаСБотамиTelegram</commonModules>
   <commonModules>CommonModule.TBM_РаботаСJSON</commonModules>
+  <commonModules>CommonModule.TBM_РаботаСБотамиTelegram</commonModules>
   <httpServices>HTTPService.TBM_TelegramWebhook</httpServices>
   <scheduledJobs>ScheduledJob.TBM_ВзаимодействиеСБотамиTelegram</scheduledJobs>
   <catalogs>Catalog.TBM_БотыTelegram</catalogs>
-  <catalogs>Catalog.TBM_ДействияБотовTelegram</catalogs>
+  <catalogs>Catalog.TBM_ОбщенияБотовTelegramСЧатами</catalogs>
+  <catalogs>Catalog.TBM_СценарииБотовTelegram</catalogs>
   <catalogs>Catalog.TBM_ЧатыTelegram</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
-  <enums>Enum.TBM_ТипыДействийБотовTelegram</enums>
   <enums>Enum.TBM_ВариантыВзаимодействияСБотамиTelegram</enums>
+  <enums>Enum.TBM_ТипыСценариевБотовTelegram</enums>
   <informationRegisters>InformationRegister.TBM_КомандыБотовTelegram</informationRegisters>
   <informationRegisters>InformationRegister.TBM_ОбработанныеСообщенияБотовTelegram</informationRegisters>
 </mdclass:Configuration>

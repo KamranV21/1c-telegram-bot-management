@@ -4,7 +4,7 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Catalog.TBM_ДействияБотовTelegram</name>
+		<name>Catalog.TBM_СценарииБотовTelegram</name>
 		<right>
 			<name>Delete</name>
 			<value>false</value>

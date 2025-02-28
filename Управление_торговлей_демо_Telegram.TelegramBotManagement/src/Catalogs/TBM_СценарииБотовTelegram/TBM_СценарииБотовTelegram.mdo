@@ -7,36 +7,36 @@
     <listType typeId="f776572d-f2a4-46a5-925a-a3c90a6b7ecb" valueTypeId="1e52533e-22cb-49e2-bad2-877d3a72d985"/>
     <managerType typeId="6a8aeb66-7a58-4329-bf63-289e83f7bc7c" valueTypeId="28da04e8-9c2b-43a6-b464-b99c2a6aa66e"/>
   </producedTypes>
-  <name>TBM_ДействияБотовTelegram</name>
+  <name>TBM_СценарииБотовTelegram</name>
   <synonym>
     <key>en</key>
-    <value>Telegram bot actions</value>
+    <value>Telegram bot scripts</value>
   </synonym>
   <synonym>
     <key>ru</key>
-    <value>Действия ботов Telegram</value>
+    <value>Сценарии ботов Telegram</value>
   </synonym>
   <synonym>
     <key>az</key>
-    <value>Telegram bot əməliyyatları</value>
+    <value>Telegram bot skriptləri</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.TBM_ДействияБотовTelegram.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.TBM_СценарииБотовTelegram.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>en</key>
-    <value>Telegram bot action</value>
+    <value>Telegram bot script</value>
   </objectPresentation>
   <objectPresentation>
     <key>ru</key>
-    <value>Действие бота Telegram</value>
+    <value>Сценарий бота Telegram</value>
   </objectPresentation>
   <objectPresentation>
     <key>az</key>
-    <value>Telegram bot əməliyyatı</value>
+    <value>Telegram bot scripti</value>
   </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
@@ -46,29 +46,29 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.TBM_ДействияБотовTelegram.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultObjectForm>Catalog.TBM_СценарииБотовTelegram.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="a8ae13e4-df62-43bc-96d8-4edb911c276c">
-    <name>ТипДействия</name>
+    <name>ТипСценария</name>
     <synonym>
       <key>en</key>
-      <value>Action type</value>
+      <value>Script type</value>
     </synonym>
     <synonym>
       <key>ru</key>
-      <value>Тип действия</value>
+      <value>Тип сценария</value>
     </synonym>
     <synonym>
       <key>az</key>
-      <value>Əməliyyət tipi</value>
+      <value>Skriptin tipi</value>
     </synonym>
     <type>
-      <types>EnumRef.TBM_ТипыДействийБотовTelegram</types>
+      <types>EnumRef.TBM_ТипыСценариевБотовTelegram</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:ReferenceValue">
-      <value>Enum.TBM_ТипыДействийБотовTelegram.EnumValue.ОтправкаОтчета</value>
+      <value>Enum.TBM_ТипыСценариевБотовTelegram.EnumValue.ОтправкаОтчета</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -130,6 +130,74 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="4abf050b-367a-41e5-ad3c-b5462456ddea">
+    <producedTypes>
+      <objectType typeId="a50695ac-597c-4fdb-b3d6-7afae6985b27" valueTypeId="6f17f1b6-29ec-41cf-8491-18179f427a66"/>
+      <rowType typeId="0a000ab6-560c-449b-a9a9-3cfb6bbf94cb" valueTypeId="32279e03-1b67-4efc-b982-445b6114c4bf"/>
+    </producedTypes>
+    <name>Этапы</name>
+    <synonym>
+      <key>en</key>
+      <value>Steps</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Этапы</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Mərhələlər</value>
+    </synonym>
+    <attributes uuid="bff8ed2d-424c-4fc3-ae8f-fae8bfb24b97">
+      <name>НаименованиеЭтапа</name>
+      <synonym>
+        <key>en</key>
+        <value>Step mame</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование этапа</value>
+      </synonym>
+      <synonym>
+        <key>az</key>
+        <value>Mərhələnin adı</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ee86358e-cedd-4500-a4ca-7bd5848bcd85">
+      <name>ПроизвольныйКод</name>
+      <synonym>
+        <key>en</key>
+        <value>Custom code</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Произвольный код</value>
+      </synonym>
+      <synonym>
+        <key>az</key>
+        <value>Sərbəst kod</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <multiLine>true</multiLine>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
