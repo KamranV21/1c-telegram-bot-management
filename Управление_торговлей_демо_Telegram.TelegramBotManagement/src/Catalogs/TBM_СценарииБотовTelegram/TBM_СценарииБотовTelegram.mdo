@@ -201,6 +201,119 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="428035c0-0887-4064-96d7-bf7895c35c58">
+      <name>УникальныйИдентификатор</name>
+      <synonym>
+        <key>az</key>
+        <value>Unikal identifikator</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Unique identifier</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Уникальный идентификатор</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="ea73cfe5-0a93-467a-b651-a3a6276b48d5">
+    <producedTypes>
+      <objectType typeId="5bc0f6b6-2e7c-4517-a5d4-c2a5a107bf60" valueTypeId="dc5bb75d-c74e-466c-b1dc-4dba39a6d7e2"/>
+      <rowType typeId="f3539046-8449-4406-847b-919c1dfdf600" valueTypeId="749729c3-5032-4be2-ab07-c190b9c0759d"/>
+    </producedTypes>
+    <name>КнопкиКлавиатуры</name>
+    <synonym>
+      <key>az</key>
+      <value>Klaviatura düymələri</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Keyboard buttons</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Кнопки клавиатуры</value>
+    </synonym>
+    <attributes uuid="917d6adf-2ee3-45b7-87e7-6c51d033925f">
+      <name>Наименование</name>
+      <synonym>
+        <key>az</key>
+        <value>Ad</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Name</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5eb765fe-42d0-49c3-aa4c-a868d32e5cbb">
+      <name>ЗапросНомераТелефона</name>
+      <synonym>
+        <key>az</key>
+        <value>Telefon nömrəsini tələb etmək</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Request phone number</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Запрос номера телефона</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f7e60293-7dd5-4863-88b5-59a2f81942b2">
+      <name>УникальныйИдентификатор</name>
+      <synonym>
+        <key>az</key>
+        <value>Unikal identifikator</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Unique identifier</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Уникальный идентификатор</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
   </tabularSections>
   <forms uuid="9aa08a9a-786e-4c37-bbab-4257b0f632af">
     <name>ФормаЭлемента</name>
