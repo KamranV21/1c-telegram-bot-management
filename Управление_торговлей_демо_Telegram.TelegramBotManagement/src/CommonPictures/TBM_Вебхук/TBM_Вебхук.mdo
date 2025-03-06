@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f65bfd4d-2c33-44ca-8e79-e737ec5732f3">
+  <name>TBM_Вебхук</name>
+  <synonym>
+    <key>az</key>
+    <value>Vebxuk</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Webhook</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Вебхук</value>
+  </synonym>
+</mdclass:CommonPicture>
