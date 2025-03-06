@@ -1079,7 +1079,7 @@
 	Сообщение = НоваяСтруктураСообщенияЧата();
 	Сообщение.chat_id = ИдентификаторЧата;
 	Сообщение.text = НСтр(
-		"az = 'An error occurred while processing the message.';en = 'Mesajın emal zaman səhv oldu.';ru = 'Произошла ошибка при обработке сообщения.'");
+		"az = 'Mesajın emal zaman səhv oldu.';en = 'An error occurred while processing the message.';ru = 'Произошла ошибка при обработке сообщения.'");
 	ОтправитьСообщениеВЧат(Бот, Сообщение);
 
 КонецПроцедуры
@@ -1089,7 +1089,7 @@
 	Сообщение = НоваяСтруктураСообщенияЧата();
 	Сообщение.chat_id = ВыборкаЧатов.ИдентификаторЧата;
 	Сообщение.text = НСтр(
-		"az = 'An error occurred while processing the message.';en = 'Please select one of the available bot commands.';ru = 'Пожалуйста, выберите одну из доступных команд бота.'");
+		"az = 'Zəhmət olmasa, mövcud bot əməliyyətdən birini seçin.';en = 'Please select one of the available bot commands.';ru = 'Пожалуйста, выберите одну из доступных команд бота.'");
 	ОтправитьСообщениеВЧат(Бот, Сообщение);
 
 	СохранитьОбработанноеСообщение(Бот, Чат, ВыборкаЧатов);
