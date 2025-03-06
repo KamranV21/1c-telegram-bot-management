@@ -72,7 +72,6 @@
   <commonPictures>CommonPicture.TBM_ОтключитьВебхук</commonPictures>
   <commonPictures>CommonPicture.Успешно32</commonPictures>
   <roles>Role.TBM_АдминистраторБотовTelegram</roles>
-  <commonModules>CommonModule.TBM_РаботаСJSON</commonModules>
   <commonModules>CommonModule.TBM_РаботаСБотамиTelegram</commonModules>
   <httpServices>HTTPService.TBM_TelegramWebhook</httpServices>
   <scheduledJobs>ScheduledJob.TBM_ВзаимодействиеСБотамиTelegram</scheduledJobs>
