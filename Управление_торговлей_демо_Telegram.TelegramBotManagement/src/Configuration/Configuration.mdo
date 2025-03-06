@@ -41,7 +41,7 @@
   <version>0.0.1</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <languages uuid="276c2a03-4b17-4447-873c-d51c1e65724e" extendedConfigurationObject="d0af2904-4c9f-4595-95c4-f0f4a6af908a">
+  <languages uuid="646e57ad-8527-486d-8bcb-e5a4ab084b9e" extendedConfigurationObject="368646a3-b13c-48f8-aeca-cb920e854106">
     <name>Азербайджанский</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:LanguageExtension">
@@ -50,7 +50,7 @@
     </extension>
     <languageCode>az</languageCode>
   </languages>
-  <languages uuid="9365c746-7f50-410d-91e1-82cae2bf016b" extendedConfigurationObject="32081da5-2cbf-4093-9342-47f6ed851d2c">
+  <languages uuid="9fc80057-e29d-42b8-90cc-00eaf0e16a4f" extendedConfigurationObject="4a784fa7-1127-4b1e-a199-2f317bbd174d">
     <name>Английский</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:LanguageExtension">
@@ -68,9 +68,10 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <commonPictures>CommonPicture.TBM_Вебхук</commonPictures>
+  <commonPictures>CommonPicture.TBM_ОтключитьВебхук</commonPictures>
   <commonPictures>CommonPicture.Успешно32</commonPictures>
   <roles>Role.TBM_АдминистраторБотовTelegram</roles>
-  <commonModules>CommonModule.TBM_РаботаСJSON</commonModules>
   <commonModules>CommonModule.TBM_РаботаСБотамиTelegram</commonModules>
   <httpServices>HTTPService.TBM_TelegramWebhook</httpServices>
   <scheduledJobs>ScheduledJob.TBM_ВзаимодействиеСБотамиTelegram</scheduledJobs>
