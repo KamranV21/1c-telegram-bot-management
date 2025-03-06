@@ -41,7 +41,7 @@
   <version>0.0.1</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <languages uuid="96e529b7-6a22-47de-b4e2-6e5cb7d1a15f" extendedConfigurationObject="368646a3-b13c-48f8-aeca-cb920e854106">
+  <languages uuid="276c2a03-4b17-4447-873c-d51c1e65724e" extendedConfigurationObject="d0af2904-4c9f-4595-95c4-f0f4a6af908a">
     <name>Азербайджанский</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:LanguageExtension">
@@ -50,7 +50,7 @@
     </extension>
     <languageCode>az</languageCode>
   </languages>
-  <languages uuid="c281c46e-8585-4d7e-8604-6d6ec6118a7f" extendedConfigurationObject="4a784fa7-1127-4b1e-a199-2f317bbd174d">
+  <languages uuid="9365c746-7f50-410d-91e1-82cae2bf016b" extendedConfigurationObject="32081da5-2cbf-4093-9342-47f6ed851d2c">
     <name>Английский</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:LanguageExtension">

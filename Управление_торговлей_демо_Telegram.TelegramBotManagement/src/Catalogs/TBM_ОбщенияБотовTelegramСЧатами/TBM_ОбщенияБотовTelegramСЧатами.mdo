@@ -44,7 +44,6 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="87ff3c53-ed1c-4753-8724-ade1e9da7bad">
@@ -247,6 +246,31 @@
         <types>String</types>
         <stringQualifiers>
           <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="53da3fc8-ff5e-4ef4-8549-f9f0dfacf598">
+      <name>УникальныйИдентификатор</name>
+      <synonym>
+        <key>az</key>
+        <value>Unikal identifikator</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Unique identifier</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Уникальный идентификатор</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
