@@ -41,7 +41,7 @@
   <version>0.0.1</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <languages uuid="646e57ad-8527-486d-8bcb-e5a4ab084b9e" extendedConfigurationObject="368646a3-b13c-48f8-aeca-cb920e854106">
+  <languages uuid="296e4909-f7ad-4a22-a294-516d1b25c75e" extendedConfigurationObject="d0af2904-4c9f-4595-95c4-f0f4a6af908a">
     <name>Азербайджанский</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:LanguageExtension">
@@ -50,7 +50,7 @@
     </extension>
     <languageCode>az</languageCode>
   </languages>
-  <languages uuid="9fc80057-e29d-42b8-90cc-00eaf0e16a4f" extendedConfigurationObject="4a784fa7-1127-4b1e-a199-2f317bbd174d">
+  <languages uuid="54216fd5-666b-47be-a106-75b0a54d0adc" extendedConfigurationObject="32081da5-2cbf-4093-9342-47f6ed851d2c">
     <name>Английский</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:LanguageExtension">
@@ -83,6 +83,7 @@
   <catalogs>Catalog.Пользователи</catalogs>
   <enums>Enum.TBM_ВариантыВзаимодействияСБотамиTelegram</enums>
   <enums>Enum.TBM_ТипыСценариевБотовTelegram</enums>
+  <informationRegisters>InformationRegister.TBM_АвторизованныеСценарииЧатовTelegram</informationRegisters>
   <informationRegisters>InformationRegister.TBM_КомандыБотовTelegram</informationRegisters>
   <informationRegisters>InformationRegister.TBM_ОбработанныеСообщенияБотовTelegram</informationRegisters>
 </mdclass:Configuration>
