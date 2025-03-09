@@ -136,6 +136,58 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.TBM_ЧатыTelegram.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="d4b1d204-1ab1-457a-9027-02ada415959b">
+    <name>ИмяКонтакта</name>
+    <synonym>
+      <key>az</key>
+      <value>Əlaqə adı</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Contact name</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Имя контакта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="89d37e37-9b73-45a8-be1b-26f7a729a782">
+    <name>НомерТелефона</name>
+    <synonym>
+      <key>az</key>
+      <value>Telefon nömrəsi</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Phone number</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Номер телефона</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="f9d6c11a-dba0-483a-8cd4-1082458defdc">
     <name>ФормаЭлемента</name>
     <synonym>
