@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01b5b73a-0fc8-4b6c-beee-cd866b36a935">
+  <producedTypes>
+    <selectionType typeId="2b790aa5-598b-4e21-84ed-9a4e7c05761c" valueTypeId="f94a73ca-9f59-4233-8762-97567b1028a5"/>
+    <listType typeId="9a9557c7-6f76-4bf3-b0f0-c2ee73e009ab" valueTypeId="573233fe-cbb8-4006-bbbe-443147a588ac"/>
+    <managerType typeId="719d651a-ef82-4acd-ba65-aabe57bcc09e" valueTypeId="b822f09f-dc19-47c6-8835-d53d1d308182"/>
+    <recordSetType typeId="8dbe12d2-eb2e-42a9-a58c-76044e72ae69" valueTypeId="605b19d3-f892-4877-a582-c3e8dea5bba7"/>
+    <recordKeyType typeId="960b1778-0d47-407b-9fc2-e8284add59d6" valueTypeId="27c02519-2cdf-4556-8bc0-d7142550f2a6"/>
+    <recordType typeId="13644e98-37d2-47b5-8bb3-cd954e8fc8ef" valueTypeId="b6601568-757d-451b-8e3a-4e682a171863"/>
+    <recordManagerType typeId="7e5cd089-5f80-4796-8c7c-f6fdb44dc096" valueTypeId="5c878163-19ca-4943-93d9-ee5ea31718c2"/>
+  </producedTypes>
+  <name>TBM_АвторизованныеСценарииЧатовTelegram</name>
+  <synonym>
+    <key>az</key>
+    <value>Avtorizasiya olunmuş Telegram söhbətləri</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Authorized Telegram chats</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Авторизованные чаты Telegram</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>az</key>
+    <value>Avtorizasiya olunmuş Telegram söhbəti</value>
+  </recordPresentation>
+  <recordPresentation>
+    <key>en</key>
+    <value>Authorized Telegram chat</value>
+  </recordPresentation>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Авторизованный чат Telegram</value>
+  </recordPresentation>
+  <dimensions uuid="f4149dfe-9df6-4145-955d-7126970103ef">
+    <name>Бот</name>
+    <synonym>
+      <key>en</key>
+      <value>Bot</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Бот</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Bot</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.TBM_БотыTelegram</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ae53a3c4-a770-4d5b-b079-9bf22528dcf1">
+    <name>Чат</name>
+    <synonym>
+      <key>en</key>
+      <value>Chat</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Чат</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Söhbət</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.TBM_ЧатыTelegram</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4e8b2de9-cb8a-4993-8ea8-c8d582ece1bc">
+    <name>Сценарий</name>
+    <synonym>
+      <key>en</key>
+      <value>Action</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Əməliyyat</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.TBM_СценарииБотовTelegram</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

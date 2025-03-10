@@ -141,6 +141,29 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="94dac07c-9004-4f3f-9b54-428351480442">
+    <name>ЗапрошенныйСценарий</name>
+    <synonym>
+      <key>az</key>
+      <value>Tələb olunan skript</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Requested script</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Запрошенный сценарий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.TBM_СценарииБотовTelegram</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="f9859e03-a499-4cf9-96f4-151c6f09621f">
     <name>Завершено</name>
     <synonym>
