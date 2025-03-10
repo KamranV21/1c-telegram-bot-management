@@ -88,4 +88,5 @@
   <informationRegisters>InformationRegister.TBM_АвторизованныеСценарииЧатовTelegram</informationRegisters>
   <informationRegisters>InformationRegister.TBM_КомандыБотовTelegram</informationRegisters>
   <informationRegisters>InformationRegister.TBM_ОбработанныеСообщенияБотовTelegram</informationRegisters>
+  <informationRegisters>InformationRegister.TBM_ОдноразовыеПаролиАвторизацииЧатовTelegram</informationRegisters>
 </mdclass:Configuration>
