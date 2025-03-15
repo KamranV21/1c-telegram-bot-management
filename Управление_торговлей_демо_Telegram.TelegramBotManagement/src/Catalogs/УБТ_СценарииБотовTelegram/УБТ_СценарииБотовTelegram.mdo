@@ -47,6 +47,30 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.УБТ_СценарииБотовTelegram.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УБТ_СценарииБотовTelegram.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="e733bf5d-5192-4074-b176-671e21846078">
+    <name>Бот</name>
+    <synonym>
+      <key>az</key>
+      <value>Bot</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Bot</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Бот</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБТ_БотыTelegram</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="a8ae13e4-df62-43bc-96d8-4edb911c276c">
     <name>ТипСценария</name>
     <synonym>
@@ -150,6 +174,85 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="783895a6-1638-4a13-b185-a4feedd8c9f8">
+    <name>ИспользоватьРегламентноеЗадание</name>
+    <synonym>
+      <key>az</key>
+      <value>Reqlament tapşırığını istifadə etmək</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use scheduled task</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать регламентное задание</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При установленном флажке обмен данными будет запускаться автоматически, согласно расписанию</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5c738ec3-0f1b-4818-933b-fe0f79c464f7">
+    <name>ИдентификаторРегламентногоЗадания</name>
+    <synonym>
+      <key>az</key>
+      <value>Reqlament tapşırığının identifikatoru</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Scheduled task ID</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор регламентного задания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор для регламентного задания</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cedafc74-0ef0-4aef-a5ff-1908fd726157">
+    <name>ПользовательРегламентногоЗадания</name>
+    <synonym>
+      <key>az</key>
+      <value>Reqlament tapşırığının istifadəçi</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Scheduled task user</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь регламентного задания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="da15dcb7-b5c1-49b4-9f04-3a2395ee3f3e">
     <producedTypes>
       <objectType typeId="35935108-9750-48dc-842c-9433a69e72f3" valueTypeId="c197cf9a-0924-420c-adf4-63fcc75a3d47"/>
@@ -170,6 +273,14 @@
     </synonym>
     <attributes uuid="d3c44ed2-3b8a-49de-ba68-021c037d8faa">
       <name>Отчет</name>
+      <synonym>
+        <key>az</key>
+        <value>Hesabat</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Report</value>
+      </synonym>
       <synonym>
         <key>ru</key>
         <value>Отчет</value>
@@ -368,6 +479,51 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="2298ab5c-077e-441f-a2a0-69c1b48ff088">
+    <producedTypes>
+      <objectType typeId="c6c32c79-910d-4704-9a53-2262369711be" valueTypeId="6f097baa-38d0-4868-8bef-752fd09afda3"/>
+      <rowType typeId="56e961e9-3026-48e8-8ece-2fa3a4b2a0d5" valueTypeId="08961b41-a25d-4f06-96b9-5574a43bcc8b"/>
+    </producedTypes>
+    <name>Чаты</name>
+    <synonym>
+      <key>az</key>
+      <value>Söhbətlər</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Chats</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Чаты</value>
+    </synonym>
+    <attributes uuid="f1d67962-82cd-4b34-958d-a54ec5cf5b9d">
+      <name>Чат</name>
+      <synonym>
+        <key>az</key>
+        <value>Söhbət</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Chat</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Чат</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УБТ_ЧатыTelegram</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.УБТ_СценарииБотовTelegram.StandardAttribute.Ref</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="9aa08a9a-786e-4c37-bbab-4257b0f632af">
     <name>ФормаЭлемента</name>
     <synonym>
@@ -381,6 +537,23 @@
     <synonym>
       <key>az</key>
       <value>Elementin forması</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b8e0a4dd-407d-4b22-8b85-d0531a7c4a28">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>az</key>
+      <value>Siyahın forması</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

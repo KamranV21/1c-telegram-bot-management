@@ -78,6 +78,7 @@
   <commonModules>CommonModule.УБТ_РаботаСБотамиTelegramВызовСервера</commonModules>
   <httpServices>HTTPService.УБТ_TelegramWebhook</httpServices>
   <scheduledJobs>ScheduledJob.УБТ_ВзаимодействиеСБотамиTelegram</scheduledJobs>
+  <scheduledJobs>ScheduledJob.УБТ_ИсполнениеСценариевTelegramБотов</scheduledJobs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.УБТ_БотыTelegram</catalogs>
