@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26e7442e-afe0-4ce6-8c52-da6b34a0f0b2">
+  <name>УБТ_АдминистраторБотовTelegram</name>
+  <synonym>
+    <key>en</key>
+    <value>Telegram bot administrator</value>
+  </synonym>
+  <synonym>
+    <key>az</key>
+    <value>Telegram bot administratoru</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Администратор ботов Telegram</value>
+  </synonym>
+</mdclass:Role>

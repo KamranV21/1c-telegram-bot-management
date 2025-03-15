@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8767886-f258-428e-a4e9-6c926b2a5c65">
+  <name>УБТ_TelegramWebhook</name>
+  <synonym>
+    <key>en</key>
+    <value>Telegram webhook</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Telegram webhook</value>
+  </synonym>
+  <synonym>
+    <key>az</key>
+    <value>Telegram webhook</value>
+  </synonym>
+  <rootURL>telegram-bot-management</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="5f91345c-779a-4f01-ab30-b9960fbb81d2">
+    <name>Webhook</name>
+    <synonym>
+      <key>en</key>
+      <value>Webhook</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Webhook</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Webhook</value>
+    </synonym>
+    <template>/webhook</template>
+    <methods uuid="80a89eeb-1367-4426-97bc-bb12d2d174b5">
+      <name>POST</name>
+      <synonym>
+        <key>en</key>
+        <value>POST</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <synonym>
+        <key>az</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>WebhookPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

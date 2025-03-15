@@ -7,5 +7,5 @@
     <commandInterface>Extended</commandInterface>
   </extension>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <subsystems>TBM_УправлениеБотамиTelegram</subsystems>
+  <subsystems>УБТ_УправлениеБотамиTelegram</subsystems>
 </mdclass:Subsystem>
