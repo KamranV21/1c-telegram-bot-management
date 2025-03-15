@@ -1088,6 +1088,12 @@ Məsələn, 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11</value>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <choiceParameterLinks>
+              <name>Отбор.Бот</name>
+              <datapath xsi:type="form:DataPath">
+                <segments>Объект.Ref</segments>
+              </datapath>
+            </choiceParameterLinks>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -1500,6 +1506,14 @@ Məsələn, 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11</value>
   <attributes>
     <name>Токен</name>
     <title>
+      <key>az</key>
+      <value>Token</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Token</value>
+    </title>
+    <title>
       <key>ru</key>
       <value>Токен</value>
     </title>
@@ -1531,7 +1545,7 @@ Məsələn, 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11</value>
     </title>
     <id>3</id>
     <valueType>
-      <types>InformationRegisterRecordSet.TBM_КомандыБотовTelegram</types>
+      <types>InformationRegisterRecordSet.УБТ_КомандыБотовTelegram</types>
     </valueType>
     <view>
       <common>true</common>
@@ -1542,6 +1556,14 @@ Məsələn, 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11</value>
   </attributes>
   <attributes>
     <name>РасписаниеРегламентногоЗадания</name>
+    <title>
+      <key>az</key>
+      <value>Reqlament tapşırığının cədvəli</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Scheduled task trigger</value>
+    </title>
     <title>
       <key>ru</key>
       <value>Расписание регламентного задания</value>
