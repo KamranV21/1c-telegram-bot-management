@@ -40,19 +40,45 @@
   <resources uuid="ff8a90fb-2012-4348-b387-b1d37869fa87">
     <name>Сценарий</name>
     <synonym>
+      <key>az</key>
+      <value>Skript</value>
+    </synonym>
+    <synonym>
       <key>en</key>
-      <value>Action</value>
+      <value>Script</value>
     </synonym>
     <synonym>
       <key>ru</key>
       <value>Сценарий</value>
     </synonym>
-    <synonym>
-      <key>az</key>
-      <value>Əməliyyat</value>
-    </synonym>
     <type>
       <types>CatalogRef.TBM_СценарииБотовTelegram</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f70ef877-00ad-4c9c-a388-0a6fc827248a">
+    <name>Описание</name>
+    <synonym>
+      <key>az</key>
+      <value>Təsvir</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Description</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

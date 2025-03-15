@@ -90,16 +90,16 @@
   <dimensions uuid="f7e6949b-7fe9-4d07-9d55-f0045ab6a43c">
     <name>Сценарий</name>
     <synonym>
+      <key>az</key>
+      <value>Skript</value>
+    </synonym>
+    <synonym>
       <key>en</key>
-      <value>Action</value>
+      <value>Script</value>
     </synonym>
     <synonym>
       <key>ru</key>
       <value>Сценарий</value>
-    </synonym>
-    <synonym>
-      <key>az</key>
-      <value>Əməliyyat</value>
     </synonym>
     <type>
       <types>CatalogRef.TBM_СценарииБотовTelegram</types>
