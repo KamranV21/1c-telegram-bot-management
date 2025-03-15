@@ -2,12 +2,12 @@
 <mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="49b6593c-3227-4c3d-8939-81e3011071d5">
   <name>TelegramBotManagement</name>
   <synonym>
-    <key>en</key>
-    <value>Telegran bot</value>
+    <key>az</key>
+    <value>Telegram botların idarə edilməsi</value>
   </synonym>
   <synonym>
-    <key>az</key>
-    <value>Telegran bot</value>
+    <key>en</key>
+    <value>Telegran bot management</value>
   </synonym>
   <synonym>
     <key>ru</key>
@@ -69,6 +69,7 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Администрирование</subsystems>
   <commonPictures>CommonPicture.TBM_Вебхук</commonPictures>
   <commonPictures>CommonPicture.TBM_ОтключитьВебхук</commonPictures>
   <commonPictures>CommonPicture.Успешно32</commonPictures>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34fee519-0f27-4bcb-83d0-d7cc6adeac81">
+  <name>TBM_УправлениеБотамиTelegram</name>
+  <synonym>
+    <key>az</key>
+    <value>Telegram botların idarə edilməsi</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Telegram bot management</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Управление ботами Telegram</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.TBM_БотыTelegram</content>
+  <content>Catalog.TBM_СценарииБотовTelegram</content>
+  <content>Catalog.TBM_ЧатыTelegram</content>
+  <content>Catalog.TBM_ОбщенияБотовTelegramСЧатами</content>
+  <content>InformationRegister.TBM_АвторизованныеСценарииЧатовTelegram</content>
+  <content>InformationRegister.TBM_КомандыБотовTelegram</content>
+  <content>InformationRegister.TBM_ОбработанныеСообщенияБотовTelegram</content>
+  <content>InformationRegister.TBM_ОдноразовыеПаролиАвторизацииЧатовTelegram</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>
