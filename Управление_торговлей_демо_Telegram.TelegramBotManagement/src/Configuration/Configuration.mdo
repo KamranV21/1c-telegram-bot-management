@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="49b6593c-3227-4c3d-8939-81e3011071d5">
-  <name>TelegramBotManagement</name>
-  <synonym>
-    <key>en</key>
-    <value>Telegran bot</value>
-  </synonym>
+  <name>УправлениеБотамиTelegram</name>
   <synonym>
     <key>az</key>
-    <value>Telegran bot</value>
+    <value>Telegram botların idarə edilməsi</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Telegran bot management</value>
   </synonym>
   <synonym>
     <key>ru</key>
@@ -31,13 +31,13 @@
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e7060c47-159c-4052-961a-4a2f38b855e2"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="ce11b3e8-47cc-43d5-8c29-9ad30f237b81"/>
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
-  <namePrefix>TBM_</namePrefix>
+  <namePrefix>УБТ_</namePrefix>
   <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <defaultRoles>Role.TBM_АдминистраторБотовTelegram</defaultRoles>
+  <defaultRoles>Role.УБТ_АдминистраторБотовTelegram</defaultRoles>
   <vendor>Камран Велиев</vendor>
   <version>0.0.1</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
@@ -69,24 +69,25 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
-  <commonPictures>CommonPicture.TBM_Вебхук</commonPictures>
-  <commonPictures>CommonPicture.TBM_ОтключитьВебхук</commonPictures>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <commonPictures>CommonPicture.УБТ_Вебхук</commonPictures>
+  <commonPictures>CommonPicture.УБТ_ОтключитьВебхук</commonPictures>
   <commonPictures>CommonPicture.Успешно32</commonPictures>
-  <roles>Role.TBM_АдминистраторБотовTelegram</roles>
-  <commonModules>CommonModule.TBM_РаботаСБотамиTelegram</commonModules>
-  <commonModules>CommonModule.TBM_РаботаСБотамиTelegramВызовСервера</commonModules>
-  <httpServices>HTTPService.TBM_TelegramWebhook</httpServices>
-  <scheduledJobs>ScheduledJob.TBM_ВзаимодействиеСБотамиTelegram</scheduledJobs>
-  <catalogs>Catalog.TBM_БотыTelegram</catalogs>
-  <catalogs>Catalog.TBM_ОбщенияБотовTelegramСЧатами</catalogs>
-  <catalogs>Catalog.TBM_СценарииБотовTelegram</catalogs>
-  <catalogs>Catalog.TBM_ЧатыTelegram</catalogs>
+  <roles>Role.УБТ_АдминистраторБотовTelegram</roles>
+  <commonModules>CommonModule.УБТ_РаботаСБотамиTelegram</commonModules>
+  <commonModules>CommonModule.УБТ_РаботаСБотамиTelegramВызовСервера</commonModules>
+  <httpServices>HTTPService.УБТ_TelegramWebhook</httpServices>
+  <scheduledJobs>ScheduledJob.УБТ_ВзаимодействиеСБотамиTelegram</scheduledJobs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
-  <enums>Enum.TBM_ВариантыВзаимодействияСБотамиTelegram</enums>
-  <enums>Enum.TBM_ТипыСценариевБотовTelegram</enums>
-  <informationRegisters>InformationRegister.TBM_АвторизованныеСценарииЧатовTelegram</informationRegisters>
-  <informationRegisters>InformationRegister.TBM_КомандыБотовTelegram</informationRegisters>
-  <informationRegisters>InformationRegister.TBM_ОбработанныеСообщенияБотовTelegram</informationRegisters>
-  <informationRegisters>InformationRegister.TBM_ОдноразовыеПаролиАвторизацииЧатовTelegram</informationRegisters>
+  <catalogs>Catalog.УБТ_БотыTelegram</catalogs>
+  <catalogs>Catalog.УБТ_ОбщенияБотовTelegramСЧатами</catalogs>
+  <catalogs>Catalog.УБТ_СценарииБотовTelegram</catalogs>
+  <catalogs>Catalog.УБТ_ЧатыTelegram</catalogs>
+  <enums>Enum.УБТ_ВариантыВзаимодействияСБотамиTelegram</enums>
+  <enums>Enum.УБТ_ТипыСценариевБотовTelegram</enums>
+  <informationRegisters>InformationRegister.УБТ_АвторизованныеСценарииЧатовTelegram</informationRegisters>
+  <informationRegisters>InformationRegister.УБТ_КомандыБотовTelegram</informationRegisters>
+  <informationRegisters>InformationRegister.УБТ_ОбработанныеСообщенияБотовTelegram</informationRegisters>
+  <informationRegisters>InformationRegister.УБТ_ОдноразовыеПаролиАвторизацииЧатовTelegram</informationRegisters>
 </mdclass:Configuration>

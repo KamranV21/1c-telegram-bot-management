@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6640cc0-d85c-4dd3-b345-93a6611ef77d">
+  <name>УБТ_ВзаимодействиеСБотамиTelegram</name>
+  <synonym>
+    <key>en</key>
+    <value>Interaction with Telegram bots</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Взаимодействие с ботами Telegram</value>
+  </synonym>
+  <synonym>
+    <key>az</key>
+    <value>Telegram botlar ilə əlaqə</value>
+  </synonym>
+  <methodName>CommonModule.УБТ_РаботаСБотамиTelegram.УБТ_ВзаимодействиеСБотамиTelegram</methodName>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

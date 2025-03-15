@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02ef9650-12b7-4109-9b94-fd04899d79fc">
+  <producedTypes>
+    <selectionType typeId="2a4203e7-e3b4-481f-b79c-8fb68b447e06" valueTypeId="3f2c2216-e048-4173-a928-2daabc83b4e5"/>
+    <listType typeId="6da9901d-e2c5-4605-a8b2-0cfd0f130746" valueTypeId="e6856927-889f-4dee-a173-d263ca955ed0"/>
+    <managerType typeId="070a6977-5351-46f6-840e-5ddc4662daba" valueTypeId="ac31d7b9-52f7-4cfa-a842-dbac9c254e8c"/>
+    <recordSetType typeId="3f87a601-cf4f-4398-9abb-0b53a450ad9f" valueTypeId="3c66468a-1038-403b-a7db-ecc87b22b65e"/>
+    <recordKeyType typeId="7f7b32b1-dcbd-4e2d-bfcd-9114cc95c715" valueTypeId="2db71824-9d51-496f-be44-4a575f0dd58e"/>
+    <recordType typeId="8eaadb3b-4f16-4a3a-8974-6226a3af9626" valueTypeId="863b6787-81e7-4b50-9f1e-d983e9f50291"/>
+    <recordManagerType typeId="ac0c390e-2ab8-412b-bc9d-8fa59010e22f" valueTypeId="24fd0100-6480-40f6-8ac7-4207810ffafe"/>
+  </producedTypes>
+  <name>УБТ_ОдноразовыеПаролиАвторизацииЧатовTelegram</name>
+  <synonym>
+    <key>az</key>
+    <value>Telegram sohbetlerinin birdəfəlik avtorizasiya parolları</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>One-time passwords for Telegram chat authorization</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Одноразовые пароли авторизации чатов Telegram</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>az</key>
+    <value>Telegram sohbetlerinin birdəfəlik avtorizasiya parolu</value>
+  </recordPresentation>
+  <recordPresentation>
+    <key>en</key>
+    <value>One-time password for Telegram chat authorization</value>
+  </recordPresentation>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Одноразовый пароль авторизации чатов Telegram</value>
+  </recordPresentation>
+  <resources uuid="2e7ecbb7-2e4a-46d3-b65f-bba2544522cf">
+    <name>Пароль</name>
+    <synonym>
+      <key>az</key>
+      <value>Parol</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Password</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2f1ccdae-3a1a-47aa-9ac3-ee9c7ae27793">
+    <name>ДействителенДо</name>
+    <synonym>
+      <key>az</key>
+      <value>Etibar tarixi</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Valid until</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Действителен до</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f7e6949b-7fe9-4d07-9d55-f0045ab6a43c">
+    <name>Сценарий</name>
+    <synonym>
+      <key>az</key>
+      <value>Skript</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Script</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБТ_СценарииБотовTelegram</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <forms uuid="4eb25304-c5c9-4d91-9523-4ed0c12cb23b">
+    <name>ОдноразовыйПароль</name>
+    <synonym>
+      <key>az</key>
+      <value>Birdəfəlik parol</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>OTP</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Одноразовый пароль</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

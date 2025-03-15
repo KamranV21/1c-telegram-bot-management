@@ -52,7 +52,7 @@
       <value>Сценарий</value>
     </synonym>
     <type>
-      <types>CatalogRef.TBM_СценарииБотовTelegram</types>
+      <types>CatalogRef.УБТ_СценарииБотовTelegram</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -101,7 +101,7 @@
       <value>Bot</value>
     </synonym>
     <type>
-      <types>CatalogRef.TBM_БотыTelegram</types>
+      <types>CatalogRef.УБТ_БотыTelegram</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -156,7 +156,7 @@
       <value>Söhbət</value>
     </synonym>
     <type>
-      <types>CatalogRef.TBM_ЧатыTelegram</types>
+      <types>CatalogRef.УБТ_ЧатыTelegram</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

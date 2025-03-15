@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b04f7bb-a97c-4632-9a2d-e6be68e22420">
+  <producedTypes>
+    <selectionType typeId="2712317f-0a9a-4e2b-b0eb-7d8981677e80" valueTypeId="d7e8167c-f06f-4918-aa27-bd4c2daf1f75"/>
+    <listType typeId="9ac69142-b1ee-4f04-88b9-4fb26cdaaf33" valueTypeId="e94c63b9-f989-4bd7-9564-d0b63d3a5c36"/>
+    <managerType typeId="3b9f046d-0536-4685-ac81-adfeb29ab8f9" valueTypeId="a41904df-eeab-487a-8da4-7c1993f5c376"/>
+    <recordSetType typeId="c5e3b114-bc6f-40d3-92bc-27ae38d43306" valueTypeId="b871b818-7c74-4a2d-ad46-d542532d37cd"/>
+    <recordKeyType typeId="df0a6488-5844-4463-abd9-3084221d5535" valueTypeId="6e83fb97-fdd2-422a-ad4c-b216a8c23d31"/>
+    <recordType typeId="8bfbb2ea-619a-400f-9c30-f1dde9f97ed6" valueTypeId="2ddad3b9-d844-4e81-b817-c5c8210144a7"/>
+    <recordManagerType typeId="f247680f-671d-4ba9-930a-b5b57ebeb5dd" valueTypeId="2b921e87-1f39-4730-a381-5204800c1ef0"/>
+  </producedTypes>
+  <name>УБТ_ОбработанныеСообщенияБотовTelegram</name>
+  <synonym>
+    <key>en</key>
+    <value>Processed Telegram bot messages</value>
+  </synonym>
+  <synonym>
+    <key>az</key>
+    <value>Telegram botlarının işlənmiş mesajları</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Обработанные сообщения ботов Telegram</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>en</key>
+    <value>Processed Telegram bot message</value>
+  </recordPresentation>
+  <recordPresentation>
+    <key>az</key>
+    <value>Telegram bot işlənmiş mesajı</value>
+  </recordPresentation>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Обработанное сообщение бота Telegram</value>
+  </recordPresentation>
+  <resources uuid="d5bf7882-412f-4fa8-8652-a7db50c02a69">
+    <name>Дата</name>
+    <synonym>
+      <key>en</key>
+      <value>Date</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Tarix</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e42523b4-a5a0-4c70-acf2-9a93c2ce2d69">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>en</key>
+      <value>Message text</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Mesaj mətni</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="2d67f81a-7a80-472c-bcb1-dc1f9d5c12c8">
+    <name>ИдентификаторСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сообщения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a2af6aeb-8a75-453b-8548-288e7ba79f6e">
+    <name>Бот</name>
+    <synonym>
+      <key>en</key>
+      <value>Bot</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Bot</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Бот</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБТ_БотыTelegram</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="17fba186-4821-49cc-8a2a-6d961b142865">
+    <name>Чат</name>
+    <synonym>
+      <key>en</key>
+      <value>Chat</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Söhbət</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Чат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБТ_ЧатыTelegram</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

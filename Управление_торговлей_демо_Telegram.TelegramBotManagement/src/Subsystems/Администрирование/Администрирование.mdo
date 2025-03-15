@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="af14eaf5-0040-4d70-a75e-c3d6703740ff" extendedConfigurationObject="6b8ea295-dbfb-4fe2-91fd-a57179d300c3">
+  <name>Администрирование</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <commandInterface>Extended</commandInterface>
+  </extension>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <subsystems>УБТ_УправлениеБотамиTelegram</subsystems>
+</mdclass:Subsystem>
