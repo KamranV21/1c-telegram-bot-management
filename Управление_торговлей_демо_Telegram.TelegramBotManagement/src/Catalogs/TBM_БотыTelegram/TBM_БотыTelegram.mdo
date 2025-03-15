@@ -47,6 +47,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.TBM_БотыTelegram.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.TBM_БотыTelegram.Form.ФормаСписка</defaultListForm>
   <attributes uuid="3bd1dc67-5600-438f-9a0c-32831976dc7e">
     <name>ВариантВзаимодействия</name>
     <synonym>
@@ -172,6 +173,23 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="469585f5-73ba-4cbc-8b03-98e6121d2220">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>az</key>
+      <value>Siyahın forması</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
