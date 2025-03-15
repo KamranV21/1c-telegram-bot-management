@@ -123,6 +123,33 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="f5fe76d8-c7e2-4709-8621-8c1ea0643855">
+    <name>Версия</name>
+    <synonym>
+      <key>az</key>
+      <value>Versiya</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Version</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="da15dcb7-b5c1-49b4-9f04-3a2395ee3f3e">
     <producedTypes>
       <objectType typeId="35935108-9750-48dc-842c-9433a69e72f3" valueTypeId="c197cf9a-0924-420c-adf4-63fcc75a3d47"/>

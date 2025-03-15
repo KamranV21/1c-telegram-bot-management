@@ -12,6 +12,10 @@
 		ТекстОшибки = НСтр(
 			"az = 'Çat avtorizasiya skriptinin redaktə edilməsi qadağandır.';en = 'Editing the chat authorization script is forbidden';ru = 'Запрещено редактирование сценария авторизации чатов.'");
 		ОбщегоНазначения.СообщитьПользователю(ТекстОшибки, , , , Отказ);
+	ИначеЕсли Наименование = Справочники.УБТ_СценарииБотовTelegram.ИмяСценарияАвторизации() Тогда
+		ТекстОшибки = НСтр(
+			"az = 'Ad artıq əvvəlcədən təyin edilmiş skript tərəfindən istifadə olunur. Zəhmət olmasa, başqa ad seçin.';en = 'The name is already used by a predefined script. Please choose another name.';ru = 'Наименование уже используется предопределенным сценарием. Выберите другое наименование.'");
+		ОбщегоНазначения.СообщитьПользователю(ТекстОшибки, ЭтотОбъект, "Наименование", , Отказ);
 	КонецЕсли;
 
 КонецПроцедуры
