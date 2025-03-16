@@ -518,7 +518,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <choiceParameterLinks>
         <name>Отбор.Владелец</name>
-        <field>Catalog.УБТ_СценарииБотовTelegram.StandardAttribute.Ref</field>
+        <field>Catalog.УБТ_СценарииБотовTelegram.Attribute.Бот</field>
       </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
