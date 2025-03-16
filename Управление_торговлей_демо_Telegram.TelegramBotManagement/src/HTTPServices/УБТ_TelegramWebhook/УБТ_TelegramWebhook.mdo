@@ -30,7 +30,7 @@
       <key>az</key>
       <value>Webhook</value>
     </synonym>
-    <template>/webhook</template>
+    <template>/webhook/{bot}</template>
     <methods uuid="80a89eeb-1367-4426-97bc-bb12d2d174b5">
       <name>POST</name>
       <synonym>

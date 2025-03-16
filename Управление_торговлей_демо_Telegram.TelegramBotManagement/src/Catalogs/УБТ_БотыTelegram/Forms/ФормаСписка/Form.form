@@ -147,7 +147,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>Ссылка</name>
-      <id>22</id>
+      <id>25</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
@@ -156,7 +156,7 @@
       </dataPath>
       <extendedTooltip>
         <name>СсылкаРасширеннаяПодсказка</name>
-        <id>24</id>
+        <id>27</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -171,7 +171,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>СсылкаКонтекстноеМеню</name>
-        <id>23</id>
+        <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
