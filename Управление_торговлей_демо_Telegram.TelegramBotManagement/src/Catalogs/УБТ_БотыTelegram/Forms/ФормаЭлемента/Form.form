@@ -257,15 +257,15 @@ Məsələn, 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11</value>
           </dataPath>
           <toolTip>
             <key>az</key>
-            <value>Bazanın publikasiya URL-ünvanı + /hs/telegram-bot-management/webhook</value>
+            <value>Bazanın publikasiya URL-ünvanı + /hs/telegram-bot-management/webhook + Bot adı</value>
           </toolTip>
           <toolTip>
             <key>en</key>
-            <value>Base publication URL address  + /hs/telegram-bot-management/webhook</value>
+            <value>Base publication URL address  + /hs/telegram-bot-management/webhook + Bot name</value>
           </toolTip>
           <toolTip>
             <key>ru</key>
-            <value>URL-адрес публикации базы + /hs/telegram-bot-management/webhook</value>
+            <value>URL-адрес публикации базы + /hs/telegram-bot-management/webhook + Имя бота</value>
           </toolTip>
           <toolTipRepresentation>ShowBottom</toolTipRepresentation>
           <extendedTooltip>
@@ -441,6 +441,37 @@ Məsələn, 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11</value>
             </extendedTooltip>
             <type>UsualButton</type>
             <commandName>Form.Command.ОтключитьВебхук</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ИнформацияОВебхуке</name>
+            <id>88</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ИнформацияОВебхукеРасширеннаяПодсказка</name>
+              <id>89</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualButton</type>
+            <commandName>Form.Command.ИнформацияОВебхуке</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1748,6 +1779,35 @@ Məsələn, 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11</value>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>УдалитьКоманды</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ИнформацияОВебхуке</name>
+    <title>
+      <key>az</key>
+      <value>Vebxuk haqqında məlumat</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Webhook info</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Информация о вебхуке</value>
+    </title>
+    <id>7</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.УБТ_Информация</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ИнформацияОВебхуке</name>
       </handler>
     </action>
     <representation>TextPicture</representation>

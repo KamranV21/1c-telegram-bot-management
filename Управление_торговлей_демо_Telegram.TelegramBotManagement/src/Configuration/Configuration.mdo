@@ -71,6 +71,7 @@
   </languages>
   <subsystems>Subsystem.Администрирование</subsystems>
   <commonPictures>CommonPicture.УБТ_Вебхук</commonPictures>
+  <commonPictures>CommonPicture.УБТ_Информация</commonPictures>
   <commonPictures>CommonPicture.УБТ_ОтключитьВебхук</commonPictures>
   <commonPictures>CommonPicture.Успешно32</commonPictures>
   <roles>Role.УБТ_АдминистраторБотовTelegram</roles>

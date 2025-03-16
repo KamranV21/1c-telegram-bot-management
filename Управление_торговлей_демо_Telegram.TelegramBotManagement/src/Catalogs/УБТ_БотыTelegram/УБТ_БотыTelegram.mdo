@@ -96,6 +96,14 @@
   <attributes uuid="8c0c1824-2536-4900-8354-099e2e209719">
     <name>ПользовательРегламентногоЗадания</name>
     <synonym>
+      <key>az</key>
+      <value>Reqlament tapşırığının istifadəçi</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Scheduled task user</value>
+    </synonym>
+    <synonym>
       <key>ru</key>
       <value>Пользователь регламентного задания</value>
     </synonym>
