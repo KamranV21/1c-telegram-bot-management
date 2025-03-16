@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ff913dc-a51a-418f-8bd3-3b225ae0599a">
+  <name>УБТ_Сценарий</name>
+  <synonym>
+    <key>az</key>
+    <value>Skript</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Script</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Сценарий</value>
+  </synonym>
+</mdclass:CommonPicture>

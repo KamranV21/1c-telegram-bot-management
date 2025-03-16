@@ -70,9 +70,11 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Администрирование</subsystems>
+  <commonPictures>CommonPicture.УБТ_Авторизация</commonPictures>
   <commonPictures>CommonPicture.УБТ_Вебхук</commonPictures>
   <commonPictures>CommonPicture.УБТ_Информация</commonPictures>
   <commonPictures>CommonPicture.УБТ_ОтключитьВебхук</commonPictures>
+  <commonPictures>CommonPicture.УБТ_Сценарий</commonPictures>
   <commonPictures>CommonPicture.Успешно32</commonPictures>
   <roles>Role.УБТ_АдминистраторБотовTelegram</roles>
   <commonModules>CommonModule.УБТ_РаботаСБотамиTelegram</commonModules>
@@ -88,8 +90,8 @@
   <catalogs>Catalog.УБТ_ЧатыTelegram</catalogs>
   <enums>Enum.УБТ_ВариантыВзаимодействияСБотамиTelegram</enums>
   <enums>Enum.УБТ_ТипыСценариевБотовTelegram</enums>
-  <informationRegisters>InformationRegister.УБТ_АвторизованныеСценарииЧатовTelegram</informationRegisters>
   <informationRegisters>InformationRegister.УБТ_КомандыБотовTelegram</informationRegisters>
+  <informationRegisters>InformationRegister.УБТ_АвторизованныеСценарииЧатовTelegram</informationRegisters>
   <informationRegisters>InformationRegister.УБТ_ОбработанныеСообщенияБотовTelegram</informationRegisters>
   <informationRegisters>InformationRegister.УБТ_ОдноразовыеПаролиАвторизацииЧатовTelegram</informationRegisters>
 </mdclass:Configuration>

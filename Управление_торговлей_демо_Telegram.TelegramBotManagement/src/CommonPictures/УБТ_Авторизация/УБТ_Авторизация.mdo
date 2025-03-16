@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbc59df8-dd69-4a86-a4a3-5a57879a03c3">
+  <name>УБТ_Авторизация</name>
+  <synonym>
+    <key>az</key>
+    <value>Avtorizasiya</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Authorization</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Авторизация</value>
+  </synonym>
+</mdclass:CommonPicture>
