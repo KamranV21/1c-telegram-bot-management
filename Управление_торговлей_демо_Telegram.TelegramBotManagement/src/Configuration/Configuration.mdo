@@ -70,9 +70,11 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Администрирование</subsystems>
+  <commonPictures>CommonPicture.УБТ_Авторизация</commonPictures>
   <commonPictures>CommonPicture.УБТ_Вебхук</commonPictures>
   <commonPictures>CommonPicture.УБТ_Информация</commonPictures>
   <commonPictures>CommonPicture.УБТ_ОтключитьВебхук</commonPictures>
+  <commonPictures>CommonPicture.УБТ_Сценарий</commonPictures>
   <commonPictures>CommonPicture.Успешно32</commonPictures>
   <roles>Role.УБТ_АдминистраторБотовTelegram</roles>
   <commonModules>CommonModule.УБТ_РаботаСБотамиTelegram</commonModules>

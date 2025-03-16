@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e55f15f5-6841-4125-a008-6837d7a2ad4d">
+  <producedTypes>
+    <selectionType typeId="a318e452-f04e-48d9-a10f-f41bb1723569" valueTypeId="1df23868-6a4f-4ea7-9323-3ac6f2498196"/>
+    <listType typeId="557c6f89-cc59-4ec9-92c3-83ba1f7d4ef5" valueTypeId="968034f1-e3bc-473a-8526-35fc6ee41d16"/>
+    <managerType typeId="9441a1df-254e-4d93-a176-ddad8e71da07" valueTypeId="befd6ccc-8ad4-4cbb-af90-04e89aed6c1b"/>
+    <recordSetType typeId="48da0b93-ce5b-4780-8fe1-b99e32e5d270" valueTypeId="cba12096-ca72-4ad6-a9f2-826392baf08c"/>
+    <recordKeyType typeId="d5ab99af-a8d6-4786-a8d6-2aa08cdc4a09" valueTypeId="00dc8d6e-fc2f-4ac4-a9c5-00bca8075855"/>
+    <recordType typeId="bfe80a82-c7eb-4614-8482-eb5e8b6406ad" valueTypeId="e43b6218-a063-45fc-ac4f-b5a08d523c4a"/>
+    <recordManagerType typeId="d149131e-42b1-4098-ad02-950d282d7a19" valueTypeId="6389d7f3-d81a-4ffb-a1d5-340f1a5d2eab"/>
+  </producedTypes>
+  <name>УБТ_КомандыБотовTelegram</name>
+  <synonym>
+    <key>az</key>
+    <value>Telegram bot komandaları</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Telegram bot commands</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Команды ботов Telegram</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>az</key>
+    <value>Telegram bot komandası</value>
+  </recordPresentation>
+  <recordPresentation>
+    <key>en</key>
+    <value>Telegram bot command</value>
+  </recordPresentation>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Команда бота Telegram</value>
+  </recordPresentation>
+  <resources uuid="b7d97aba-e250-46bd-88e9-b16fb41edce7">
+    <name>Сценарий</name>
+    <synonym>
+      <key>az</key>
+      <value>Skript</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Script</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБТ_СценарииБотовTelegram</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="033eb575-277c-4abf-98c8-27c9aa660f12">
+    <name>Описание</name>
+    <synonym>
+      <key>az</key>
+      <value>Təsvir</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Description</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d8030689-85fa-483c-a100-9d66908204ab">
+    <name>Бот</name>
+    <synonym>
+      <key>en</key>
+      <value>Bot</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Бот</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Bot</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБТ_БотыTelegram</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5c6154ac-5281-49ac-b84a-73e9d43ea9c0">
+    <name>Команда</name>
+    <synonym>
+      <key>az</key>
+      <value>Komanda</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Command</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Команда</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="172be065-9137-461e-bb86-ab036ab0e61c">
+    <name>Чат</name>
+    <synonym>
+      <key>en</key>
+      <value>Chat</value>
+    </synonym>
+    <synonym>
+      <key>az</key>
+      <value>Söhbət</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Чат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБТ_ЧатыTelegram</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
