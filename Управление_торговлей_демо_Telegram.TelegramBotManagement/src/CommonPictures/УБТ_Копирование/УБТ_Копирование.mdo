@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3a3d352-943e-44dc-9504-770e599a1b4e">
+  <name>УБТ_Копирование</name>
+  <synonym>
+    <key>az</key>
+    <value>Kopyalama</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Copy</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Копирование</value>
+  </synonym>
+</mdclass:CommonPicture>

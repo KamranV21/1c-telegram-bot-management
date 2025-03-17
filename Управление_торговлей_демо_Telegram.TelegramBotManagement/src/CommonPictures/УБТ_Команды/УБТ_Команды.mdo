@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8eeffe12-469c-4fa2-9e0d-0596dc03d3a8">
+  <name>УБТ_Команды</name>
+  <synonym>
+    <key>az</key>
+    <value>Komandalar</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Commands</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Команды</value>
+  </synonym>
+</mdclass:CommonPicture>

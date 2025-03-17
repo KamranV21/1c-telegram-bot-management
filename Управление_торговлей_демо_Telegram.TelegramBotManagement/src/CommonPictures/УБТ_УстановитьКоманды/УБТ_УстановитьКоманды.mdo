@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44f9d0a4-ada9-4cad-8fdf-02afbee0f3a8">
+  <name>УБТ_УстановитьКоманды</name>
+  <synonym>
+    <key>az</key>
+    <value>Komandalarını quraşdırmaq</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Set commands</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Установить команды</value>
+  </synonym>
+</mdclass:CommonPicture>

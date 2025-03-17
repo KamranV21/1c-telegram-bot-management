@@ -106,6 +106,18 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Code</name>
+    <synonym>
+      <key>az</key>
+      <value>Söhbətin identifikatoru</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Chat ID</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор чата</value>
+    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -136,6 +148,8 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.УБТ_ЧатыTelegram.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УБТ_ЧатыTelegram.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.УБТ_ЧатыTelegram.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="d4b1d204-1ab1-457a-9027-02ada415959b">
     <name>ИмяКонтакта</name>
     <synonym>
@@ -201,6 +215,40 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b14a84ef-c34c-46ee-8093-9a3d85e621e0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>az</key>
+      <value>Siyahın forması</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="80fdf3d3-4137-47ac-ade6-19d669772cc5">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>az</key>
+      <value>Seçim forması</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Select form</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

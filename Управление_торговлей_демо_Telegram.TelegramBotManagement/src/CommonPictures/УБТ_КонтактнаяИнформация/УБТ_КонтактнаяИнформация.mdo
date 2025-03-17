@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ba338c4-10c7-409a-a48d-31269dab4801">
+  <name>УБТ_КонтактнаяИнформация</name>
+  <synonym>
+    <key>az</key>
+    <value>Əlaqə məlumatı</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Contact information</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Контактная информация</value>
+  </synonym>
+</mdclass:CommonPicture>
