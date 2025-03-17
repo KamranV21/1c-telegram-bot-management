@@ -288,6 +288,19 @@
           <segments>КомандыБотов</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
+        <toolTip>
+          <key>az</key>
+          <value>Söhbət üçün fərdi komanda toplusu təyin edə bilərsiniz. Bu halda, istifadəçi yalnız ona birbaşa təyin edilmiş komandaları görəcək.</value>
+        </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>You can set a set of personal commands for the chat. In this case, the user will see only the commands that have been assigned specifically to them.</value>
+        </toolTip>
+        <toolTip>
+          <key>ru</key>
+          <value>Вы можете установить набор персональных команд для чата. В таком случае пользователь увидит только те команды, которые были назначены непосредственно для него.</value>
+        </toolTip>
+        <toolTipRepresentation>ShowTop</toolTipRepresentation>
         <items xsi:type="form:FormField">
           <name>КомандыБотовКоманда</name>
           <id>35</id>
