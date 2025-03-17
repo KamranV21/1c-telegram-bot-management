@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e817e78-3722-48e8-adb3-4b908e5e88cc">
+  <name>УБТ_РегламентноеЗадание</name>
+  <synonym>
+    <key>az</key>
+    <value>Reqlament tapşırığı</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Scheduled task</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентное задание</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -921,6 +921,9 @@
               </extendedTooltip>
               <type>Page</type>
               <extInfo xsi:type="form:PageGroupExtInfo">
+                <picture xsi:type="core:PictureRef">
+                  <picture>CommonPicture.УБТ_ПрограммныйКод</picture>
+                </picture>
                 <group>Vertical</group>
                 <showTitle>true</showTitle>
               </extInfo>
@@ -1240,6 +1243,9 @@
               </extendedTooltip>
               <type>Page</type>
               <extInfo xsi:type="form:PageGroupExtInfo">
+                <picture xsi:type="core:PictureRef">
+                  <picture>CommonPicture.УБТ_Клавиатура</picture>
+                </picture>
                 <group>Vertical</group>
                 <showTitle>true</showTitle>
               </extInfo>
@@ -2340,7 +2346,7 @@
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>StdPicture.ScheduledJob</picture>
+          <picture>CommonPicture.УБТ_РегламентноеЗадание</picture>
         </picture>
         <group>Vertical</group>
         <showTitle>true</showTitle>

@@ -926,10 +926,6 @@ Məsələn, 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11</value>
         <key>ru</key>
         <value>Настройки</value>
       </title>
-      <toolTip>
-        <key>ru</key>
-        <value>Страница настройки</value>
-      </toolTip>
       <extendedTooltip>
         <name>СтраницаНастройкиРасширеннаяПодсказка</name>
         <id>42</id>
@@ -947,6 +943,9 @@ Məsələn, 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11</value>
       </extendedTooltip>
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.УБТ_Настройки</picture>
+        </picture>
         <group>Vertical</group>
         <showTitle>true</showTitle>
       </extInfo>
@@ -1427,10 +1426,6 @@ Məsələn, 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11</value>
         <key>ru</key>
         <value>Команды</value>
       </title>
-      <toolTip>
-        <key>ru</key>
-        <value>Страница команды</value>
-      </toolTip>
       <extendedTooltip>
         <name>СтраницаКомандыРасширеннаяПодсказка</name>
         <id>44</id>
@@ -1448,6 +1443,9 @@ Məsələn, 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11</value>
       </extendedTooltip>
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.УБТ_Команды</picture>
+        </picture>
         <group>Vertical</group>
         <showTitle>true</showTitle>
       </extInfo>
@@ -1745,7 +1743,7 @@ Məsələn, 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11</value>
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.SaveFile</picture>
+      <picture>CommonPicture.УБТ_УстановитьКоманды</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
@@ -1774,7 +1772,7 @@ Məsələn, 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11</value>
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Delete</picture>
+      <picture>CommonPicture.УБТ_УдалитьКоманды</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>

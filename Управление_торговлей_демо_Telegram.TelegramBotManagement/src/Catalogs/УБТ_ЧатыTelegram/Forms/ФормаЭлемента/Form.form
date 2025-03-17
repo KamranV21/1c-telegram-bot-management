@@ -266,6 +266,9 @@
       </extendedTooltip>
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.УБТ_КонтактнаяИнформация</picture>
+        </picture>
         <group>Vertical</group>
         <showTitle>true</showTitle>
       </extInfo>
@@ -707,6 +710,9 @@
       </extendedTooltip>
       <type>Page</type>
       <extInfo xsi:type="form:PageGroupExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.УБТ_Команды</picture>
+        </picture>
         <group>Vertical</group>
         <showTitle>true</showTitle>
       </extInfo>
@@ -833,7 +839,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Delete</picture>
+      <picture>CommonPicture.УБТ_УдалитьКоманды</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
@@ -862,7 +868,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.SaveFile</picture>
+      <picture>CommonPicture.УБТ_УстановитьКоманды</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>

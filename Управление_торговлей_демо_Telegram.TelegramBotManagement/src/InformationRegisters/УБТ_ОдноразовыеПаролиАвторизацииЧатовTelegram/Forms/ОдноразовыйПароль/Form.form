@@ -553,7 +553,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.SaveFile</picture>
+      <picture>CommonPicture.УБТ_Копирование</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>

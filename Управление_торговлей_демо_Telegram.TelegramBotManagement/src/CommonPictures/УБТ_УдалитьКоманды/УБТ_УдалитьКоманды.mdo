@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e541a286-4d9e-4c4c-9e76-733ae567bb05">
+  <name>УБТ_УдалитьКоманды</name>
+  <synonym>
+    <key>az</key>
+    <value>Komandaları silmək</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Delete commands</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить команды</value>
+  </synonym>
+</mdclass:CommonPicture>
