@@ -294,6 +294,100 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="22bfea43-b399-4a0b-9768-332049eadfd3">
+      <name>УникальныйИдентификатор</name>
+      <synonym>
+        <key>az</key>
+        <value>Unikal identifikator</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Unique identifier</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Уникальный идентификатор</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="2bb9ce13-21ca-4612-81a5-8b759289acfe">
+    <producedTypes>
+      <objectType typeId="4e27d146-d8de-4791-9170-a02de2efdcf3" valueTypeId="0c858c84-3b58-4902-ac41-e1f652b534b9"/>
+      <rowType typeId="7a5597b9-df43-4c9a-ace4-348078d471ef" valueTypeId="295767f4-2f0e-42ec-9144-3cf81aa6f2d0"/>
+    </producedTypes>
+    <name>РасширенияОтчетов</name>
+    <synonym>
+      <key>az</key>
+      <value>Hesabatların genişləndirmələri</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Report extension</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Расширения отчетов</value>
+    </synonym>
+    <attributes uuid="4f508e7e-398c-458b-86c1-b8c8ae86285a">
+      <name>Расширение</name>
+      <synonym>
+        <key>az</key>
+        <value>Genişləndirmə</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Extension</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Расширение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8b453b69-5c03-4bb9-befe-14f26fe7055b">
+      <name>УникальныйИдентификатор</name>
+      <synonym>
+        <key>az</key>
+        <value>Unikal identifikator</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Unique identifier</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Уникальный идентификатор</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
   </tabularSections>
   <tabularSections uuid="4abf050b-367a-41e5-ad3c-b5462456ddea">
     <producedTypes>
