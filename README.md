@@ -29,4 +29,4 @@
 
 ![Infostart](https://infostart.ru/bitrix/templates/sandbox_empty/assets/tpl/abo/img/logo.svg)
 
-[Управляем ботами Telegram из 1С - рассылка отчетов, пошаговое общение с чатами и произвольные скрипты](https://infostart.ru/public/2276516)
+[Управляем ботами Telegram из 1С - рассылка отчетов, пошаговое общение с чатами и произвольные скрипты](https://infostart.ru/1c/articles/2340171/)
