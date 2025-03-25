@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34fee519-0f27-4bcb-83d0-d7cc6adeac81">
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e73d61e4-c55d-4c15-8598-622c2d76aad1">
   <name>УБТ_УправлениеБотамиTelegram</name>
   <synonym>
     <key>az</key>
@@ -15,13 +15,13 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.УБТ_БотыTelegram</content>
-  <content>Catalog.УБТ_СценарииБотовTelegram</content>
-  <content>Catalog.УБТ_ЧатыTelegram</content>
-  <content>Catalog.УБТ_ОбщенияБотовTelegramСЧатами</content>
   <content>InformationRegister.УБТ_АвторизованныеСценарииЧатовTelegram</content>
   <content>InformationRegister.УБТ_КомандыБотовTelegram</content>
   <content>InformationRegister.УБТ_ОбработанныеСообщенияБотовTelegram</content>
   <content>InformationRegister.УБТ_ОдноразовыеПаролиАвторизацииЧатовTelegram</content>
-  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+  <content>Catalog.УБТ_БотыTelegram</content>
+  <content>Catalog.УБТ_ОбщенияБотовTelegramСЧатами</content>
+  <content>Catalog.УБТ_СценарииБотовTelegram</content>
+  <content>Catalog.УБТ_ЧатыTelegram</content>
+  <parentSubsystem>Subsystem.УБТ_Telegram</parentSubsystem>
 </mdclass:Subsystem>

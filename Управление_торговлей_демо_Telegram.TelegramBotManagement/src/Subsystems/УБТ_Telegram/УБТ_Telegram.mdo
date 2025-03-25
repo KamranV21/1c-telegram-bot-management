@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="860c1a6c-1d6b-4190-acf5-bddf09d4c716">
+  <name>УБТ_Telegram</name>
+  <synonym>
+    <key>az</key>
+    <value>Telegram</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Telegram</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Telegram</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.УБТ_Telegram</picture>
+  </picture>
+  <subsystems>УБТ_УправлениеБотамиTelegram</subsystems>
+</mdclass:Subsystem>

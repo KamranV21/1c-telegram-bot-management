@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0bf532a8-36c5-4fe6-b85c-118f636d6245">
+  <name>УБТ_РаботаСJSON</name>
+  <synonym>
+    <key>az</key>
+    <value>JSON ilə iş</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Operations with JSON</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с JSON</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
