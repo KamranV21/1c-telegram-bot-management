@@ -86,6 +86,7 @@
   <commonPictures>CommonPicture.УБТ_УстановитьКоманды</commonPictures>
   <commonPictures>CommonPicture.Успешно32</commonPictures>
   <roles>Role.УБТ_АдминистраторБотовTelegram</roles>
+  <commonModules>CommonModule.УБТ_РаботаСJSON</commonModules>
   <commonModules>CommonModule.УБТ_РаботаСБотамиTelegram</commonModules>
   <commonModules>CommonModule.УБТ_РаботаСБотамиTelegramВызовСервера</commonModules>
   <httpServices>HTTPService.УБТ_TelegramWebhook</httpServices>
