@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "release-type": "simple",
+  "pull-request-title-pattern": "build${scope}: release${component} ${version}",
+  "extra-files": [
+    "Управление_торговлей_демо_Telegram.TelegramBotManagement/src/Configuration/Configuration.mdo"
+  ],
+  "packages": {
+    ".": {}
+  }
+}
