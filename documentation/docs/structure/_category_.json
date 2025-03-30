@@ -1,0 +1,8 @@
+{
+  "label": "Структура",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Описание объектов расширения"
+  }
+}
