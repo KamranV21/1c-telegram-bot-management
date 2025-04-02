@@ -11,32 +11,33 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "Easy to Use",
-    image: "img/undraw_docusaurus_mountain.svg",
+    title: "Простая установка",
+    image: "img/play.png",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Не нужно вносить изменения в вашу конфигурацию 1С - просто подключите
+        готовое расширение и начните пользоваться уже сейчас
       </>
     ),
   },
   {
-    title: "Focus on What Matters",
+    title: "Неограниченные возможности",
     image: "img/paper-plane.png",
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Готовые инструменты помогут написать абсолютно любую логику работы
+        вашего бота - от простой рассылки отчетов, до сложного поэтапного
+        общения с пользователями
       </>
     ),
   },
   {
-    title: "Powered by React",
-    image: "img/undraw_docusaurus_react.svg",
+    title: "Экономия времени",
+    image: "img/curious.png",
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Сфокусируйтесь на главном. Всю рутину взаимодействия с Telegram
+        расширение возьмет на себя.
       </>
     ),
   },

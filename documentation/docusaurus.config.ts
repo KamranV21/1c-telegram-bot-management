@@ -10,15 +10,17 @@ const config: Config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://github.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/1c-telegram-bot-management",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "KamranV21", // Usually your GitHub org/user name.
+  projectName: "1c-telegram-bot-management", // Usually your repo name.
+  deploymentBranch: "gh-pages",
+  trailingSlash: false,
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -51,7 +53,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/social-card.png",
     navbar: {
       title: "Управление ботами Telegram",
       logo: {
@@ -84,33 +86,33 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Документация",
           items: [
             {
-              label: "Документация",
+              label: "Руководство пользователя",
               to: "/docs/intro",
             },
           ],
         },
         {
-          title: "Community",
+          title: "Обратная связь",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "Infostart",
+              href: "https://infostart.ru/profile/671471/",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "Предложить идею",
+              href: "https://github.com/KamranV21/1c-telegram-bot-management/issues/new?template=%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5.md",
             },
             {
-              label: "X",
-              href: "https://x.com/docusaurus",
+              label: "Сообщить об ошибке",
+              href: "https://github.com/KamranV21/1c-telegram-bot-management/issues/new?template=%D0%BE%D1%82%D1%87%D0%B5%D1%82-%D0%BE%D0%B1-%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B5.md",
             },
           ],
         },
         {
-          title: "More",
+          title: "Еще",
           items: [
             {
               label: "GitHub",
@@ -119,7 +121,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Сделано с 💓| ${new Date().getFullYear()}`,
     },
     prism: {
       theme: prismThemes.github,
