@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d791b73-f808-43c0-94d4-976330fec415">
+  <producedTypes>
+    <refType typeId="c1785c0f-e81d-40c8-980a-d2e52808823f" valueTypeId="d0732e6f-fcab-4e04-9f7d-10664baa0d67"/>
+    <listType typeId="bf5077ef-f274-4cd4-965a-f3c7230196f4" valueTypeId="611758f3-0930-4b1d-8760-5f66016ec9ee"/>
+    <managerType typeId="1da6389e-ac6b-4dfe-b721-460229eeb561" valueTypeId="7f7b8d8d-a452-4e69-8b02-11fed9b94777"/>
+  </producedTypes>
+  <name>УБТ_ТипыЧатовTelegram</name>
+  <synonym>
+    <key>az</key>
+    <value>Telegram söhbətlərin tipləri</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Telegram chat types</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы чатов Telegram</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="35bdc062-c3fe-450e-98df-1c4452062524">
+    <name>Приватный</name>
+    <synonym>
+      <key>az</key>
+      <value>Şəxsi</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Private</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Приватный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="56e7c214-8bbd-4879-b370-c36e3a5b7efb">
+    <name>Группа</name>
+    <synonym>
+      <key>az</key>
+      <value>Qrup</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Group</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="608ca76b-2bc5-414d-8621-fea3aa29a61e">
+    <name>Супергруппа</name>
+    <synonym>
+      <key>az</key>
+      <value>Superqrup</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Supergroup</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Супергруппа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f6d4f9f0-7749-4976-846d-41c8304e0caa">
+    <name>Канал</name>
+    <synonym>
+      <key>az</key>
+      <value>Kanal</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Channel</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Канал</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

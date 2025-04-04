@@ -92,6 +92,29 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="22c5eba3-b492-49b8-86f2-76ba98860991">
+    <name>ТипЧата</name>
+    <synonym>
+      <key>az</key>
+      <value>Söhbətin tipi</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Chat type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип чата</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УБТ_ТипыЧатовTelegram</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="057835ae-82f3-4555-860a-1727927bdcb4">
     <name>ИдентификаторЧата</name>
     <synonym>

@@ -101,6 +101,7 @@
   <catalogs>Catalog.УБТ_ЧатыTelegram</catalogs>
   <enums>Enum.УБТ_ВариантыВзаимодействияСБотамиTelegram</enums>
   <enums>Enum.УБТ_ТипыСценариевБотовTelegram</enums>
+  <enums>Enum.УБТ_ТипыЧатовTelegram</enums>
   <informationRegisters>InformationRegister.УБТ_АвторизованныеСценарииЧатовTelegram</informationRegisters>
   <informationRegisters>InformationRegister.УБТ_КомандыБотовTelegram</informationRegisters>
   <informationRegisters>InformationRegister.УБТ_ОбработанныеСообщенияБотовTelegram</informationRegisters>
