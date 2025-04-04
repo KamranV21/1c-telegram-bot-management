@@ -142,6 +142,7 @@
   <foldersOnTop>true</foldersOnTop>
   <owners>Catalog.УБТ_БотыTelegram</owners>
   <codeLength>50</codeLength>
+  <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -195,6 +196,29 @@
       <stringQualifiers>
         <length>100</length>
       </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9e3ddccd-d5c5-45cf-9f12-26001b69d717">
+    <name>ТипЧата</name>
+    <synonym>
+      <key>az</key>
+      <value>Söhbətin tipi</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Chat type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип чата</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УБТ_ТипыЧатовTelegram</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
