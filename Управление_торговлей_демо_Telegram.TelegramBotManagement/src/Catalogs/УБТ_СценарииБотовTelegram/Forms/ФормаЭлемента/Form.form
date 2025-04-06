@@ -648,7 +648,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
-          <name>СтраницаОбщение</name>
+          <name>СтраницаПроизвольныйКодОбщение</name>
           <id>35</id>
           <items xsi:type="form:Table">
             <name>Этапы</name>
@@ -900,23 +900,152 @@
             <name>СтраницыНастройкиЭтапа</name>
             <id>56</id>
             <items xsi:type="form:FormGroup">
-              <name>СтраницаПроизвольныйКодЭтапа</name>
-              <id>58</id>
+              <name>СтраницаПроизвольныйКод</name>
+              <id>31</id>
+              <items xsi:type="form:FormGroup">
+                <name>КоманднаяПанельПроизвольногоКода</name>
+                <id>166</id>
+                <items xsi:type="form:Button">
+                  <name>ПроизвольныйКодКонструкторЗапроса</name>
+                  <id>164</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <extendedTooltip>
+                    <name>ПроизвольныйКодКонструкторЗапросаРасширеннаяПодсказка</name>
+                    <id>165</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <commandName>Form.Command.КонструкторЗапроса</commandName>
+                  <representation>Auto</representation>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <placementArea>UserCmds</placementArea>
+                  <representationInContextMenu>Auto</representationInContextMenu>
+                </items>
+                <items xsi:type="form:Button">
+                  <name>ПроизвольныйКодБыстрыеПодсказки</name>
+                  <id>168</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <extendedTooltip>
+                    <name>ПроизвольныйКодБыстрыеПодсказкиРасширеннаяПодсказка</name>
+                    <id>169</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <commandName>Form.Command.БыстрыеПодсказки</commandName>
+                  <representation>Auto</representation>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <placementArea>UserCmds</placementArea>
+                  <representationInContextMenu>Auto</representationInContextMenu>
+                </items>
+                <items xsi:type="form:Button">
+                  <name>ПроизвольныйКодПроверитьКод</name>
+                  <id>162</id>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <extendedTooltip>
+                    <name>ПроизвольныйКодПроверитьКодРасширеннаяПодсказка</name>
+                    <id>163</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <commandName>Form.Command.ПроверитьКод</commandName>
+                  <representation>Auto</representation>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <placementArea>UserCmds</placementArea>
+                  <representationInContextMenu>Auto</representationInContextMenu>
+                </items>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <title>
+                  <key>az</key>
+                  <value>Komanda paneli</value>
+                </title>
+                <title>
+                  <key>en</key>
+                  <value>Command panel</value>
+                </title>
+                <title>
+                  <key>ru</key>
+                  <value>Командная панель</value>
+                </title>
+                <extendedTooltip>
+                  <name>КоманднаяПанельПроизвольногоКодаРасширеннаяПодсказка</name>
+                  <id>167</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <type>CommandBar</type>
+                <extInfo xsi:type="form:CommandBarExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </items>
               <items xsi:type="form:FormField">
-                <name>ЭтапыПроизвольныйКод</name>
-                <id>53</id>
+                <name>ПроизвольныйКод</name>
+                <id>159</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
                 <dataPath xsi:type="form:DataPath">
-                  <segments>Items.Этапы.CurrentData.ПроизвольныйКод</segments>
+                  <segments>HTML</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
                 <extendedTooltip>
-                  <name>ЭтапыПроизвольныйКодРасширеннаяПодсказка</name>
-                  <id>55</id>
+                  <name>ПроизвольныйКодРасширеннаяПодсказка</name>
+                  <id>161</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -930,8 +1059,8 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>ЭтапыПроизвольныйКодКонтекстноеМеню</name>
-                  <id>54</id>
+                  <name>ПроизвольныйКодКонтекстноеМеню</name>
+                  <id>160</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -939,19 +1068,26 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <type>InputField</type>
+                <type>HTMLDocumentField</type>
                 <editMode>Enter</editMode>
                 <showInHeader>true</showInHeader>
                 <headerHorizontalAlign>Left</headerHorizontalAlign>
                 <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:InputFieldExtInfo">
+                <extInfo xsi:type="form:HtmlFieldExtInfo">
+                  <handlers>
+                    <event>DocumentComplete</event>
+                    <name>ПроизвольныйКодДокументСформирован</name>
+                  </handlers>
+                  <handlers>
+                    <event>OnClick</event>
+                    <name>ПроизвольныйКодПриНажатии</name>
+                  </handlers>
+                  <width>50</width>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <height>10</height>
                   <autoMaxHeight>true</autoMaxHeight>
                   <horizontalStretch>true</horizontalStretch>
-                  <wrap>true</wrap>
-                  <multiLine>true</multiLine>
-                  <chooseType>true</chooseType>
-                  <typeDomainEnabled>true</typeDomainEnabled>
-                  <textEdit>true</textEdit>
+                  <verticalStretch>true</verticalStretch>
                 </extInfo>
               </items>
               <visible>true</visible>
@@ -961,19 +1097,19 @@
               </userVisible>
               <title>
                 <key>az</key>
-                <value>Mərhələnin sərbəst kodu</value>
+                <value>Sərbəst kod</value>
               </title>
               <title>
                 <key>en</key>
-                <value>Step's custom code</value>
+                <value>Custom code</value>
               </title>
               <title>
                 <key>ru</key>
-                <value>Произвольный код этапа</value>
+                <value>Произвольный код</value>
               </title>
               <extendedTooltip>
-                <name>СтраницаПроизвольныйКодЭтапаРасширеннаяПодсказка</name>
-                <id>59</id>
+                <name>СтраницаПроизвольныйКодРасширеннаяПодсказка</name>
+                <id>32</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1361,11 +1497,19 @@
             <common>true</common>
           </userVisible>
           <title>
+            <key>az</key>
+            <value>Sərbəst kod və ya ünsiyyət</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>Arbitrary code or conversation</value>
+          </title>
+          <title>
             <key>ru</key>
-            <value>Страница общение</value>
+            <value>Произвольный код или общение</value>
           </title>
           <extendedTooltip>
-            <name>СтраницаОбщениеРасширеннаяПодсказка</name>
+            <name>СтраницаПроизвольныйКодОбщениеРасширеннаяПодсказка</name>
             <id>36</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1382,212 +1526,6 @@
           <type>Page</type>
           <extInfo xsi:type="form:PageGroupExtInfo">
             <group>AlwaysHorizontal</group>
-            <showTitle>true</showTitle>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormGroup">
-          <name>СтраницаПроизвольныйКод</name>
-          <id>31</id>
-          <items xsi:type="form:FormGroup">
-            <name>КоманднаяПанельПроизвольногоКода</name>
-            <id>166</id>
-            <items xsi:type="form:Button">
-              <name>ПроизвольныйКодКонструкторЗапроса</name>
-              <id>164</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <extendedTooltip>
-                <name>ПроизвольныйКодКонструкторЗапросаРасширеннаяПодсказка</name>
-                <id>165</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <commandName>Form.Command.КонструкторЗапроса</commandName>
-              <representation>Auto</representation>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <placementArea>UserCmds</placementArea>
-              <representationInContextMenu>Auto</representationInContextMenu>
-            </items>
-            <items xsi:type="form:Button">
-              <name>ПроизвольныйКодБыстрыеПодсказки</name>
-              <id>168</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <extendedTooltip>
-                <name>ПроизвольныйКодБыстрыеПодсказкиРасширеннаяПодсказка</name>
-                <id>169</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <commandName>Form.Command.БыстрыеПодсказки</commandName>
-              <representation>Auto</representation>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <placementArea>UserCmds</placementArea>
-              <representationInContextMenu>Auto</representationInContextMenu>
-            </items>
-            <items xsi:type="form:Button">
-              <name>ПроизвольныйКодПроверитьКод</name>
-              <id>162</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <extendedTooltip>
-                <name>ПроизвольныйКодПроверитьКодРасширеннаяПодсказка</name>
-                <id>163</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <commandName>Form.Command.ПроверитьКод</commandName>
-              <representation>Auto</representation>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <placementArea>UserCmds</placementArea>
-              <representationInContextMenu>Auto</representationInContextMenu>
-            </items>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>КоманднаяПанельПроизвольногоКодаРасширеннаяПодсказка</name>
-              <id>167</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <type>CommandBar</type>
-            <extInfo xsi:type="form:CommandBarExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </items>
-          <items xsi:type="form:FormField">
-            <name>ПроизвольныйКод</name>
-            <id>159</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>HTML</segments>
-            </dataPath>
-            <titleLocation>None</titleLocation>
-            <extendedTooltip>
-              <name>ПроизвольныйКодРасширеннаяПодсказка</name>
-              <id>161</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ПроизвольныйКодКонтекстноеМеню</name>
-              <id>160</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>HTMLDocumentField</type>
-            <editMode>Enter</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:HtmlFieldExtInfo">
-              <handlers>
-                <event>DocumentComplete</event>
-                <name>ПроизвольныйКодДокументСформирован</name>
-              </handlers>
-              <handlers>
-                <event>OnClick</event>
-                <name>ПроизвольныйКодПриНажатии</name>
-              </handlers>
-              <width>50</width>
-              <autoMaxWidth>true</autoMaxWidth>
-              <height>10</height>
-              <autoMaxHeight>true</autoMaxHeight>
-              <horizontalStretch>true</horizontalStretch>
-              <verticalStretch>true</verticalStretch>
-            </extInfo>
-          </items>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>СтраницаПроизвольныйКодРасширеннаяПодсказка</name>
-            <id>32</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>Page</type>
-          <extInfo xsi:type="form:PageGroupExtInfo">
-            <group>Vertical</group>
             <showTitle>true</showTitle>
           </extInfo>
         </items>
@@ -3045,6 +2983,59 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ТекущийЭтап</name>
+    <title>
+      <key>az</key>
+      <value>Cari mərhələ</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Current step</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Текущий этап</value>
+    </title>
+    <id>21</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ТекущийТипСценария</name>
+    <title>
+      <key>az</key>
+      <value>Carı skriptin tipi</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Current script type</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Текущий тип сценария</value>
+    </title>
+    <id>22</id>
+    <valueType>
+      <types>EnumRef.УБТ_ТипыСценариевБотовTelegram</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ПоказатьОдноразовыйПароль</name>
     <title>
@@ -3184,6 +3175,10 @@
     <handlers>
       <event>AfterWriteAtServer</event>
       <name>ПослеЗаписиНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>BeforeWrite</event>
+      <name>ПередЗаписью</name>
     </handlers>
   </extInfo>
 </form:Form>
