@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="332bac6b-f1c5-4aa8-8a94-08620f24b117">
-  <name>УБТ_КонсольКодаСервер</name>
+  <name>УБТ_КонсольКодаВызовСервера</name>
   <synonym>
     <key>az</key>
-    <value>Kod konsolu server</value>
+    <value>Kod konsolu (server call)</value>
   </synonym>
   <synonym>
     <key>en</key>
-    <value>Code console server</value>
+    <value>Code console (server call)</value>
   </synonym>
   <synonym>
     <key>ru</key>
-    <value>Консоль кода сервер</value>
+    <value>Консоль кода (вызов сервера)</value>
   </synonym>
   <server>true</server>
-  <externalConnection>true</externalConnection>
-  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
 </mdclass:CommonModule>
