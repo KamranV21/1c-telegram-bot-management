@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.14.0](https://github.com/KamranV21/1c-telegram-bot-management/compare/v0.13.0...v0.14.0) (2025-04-07)
+
+
+### Features
+
+* Добавлен редактор кода Monaco для написания сценария ботов ([c4ddbef](https://github.com/KamranV21/1c-telegram-bot-management/commit/c4ddbef6b42156782bf256ba662313c74a347c1c))
+
 ## [0.13.0](https://github.com/KamranV21/1c-telegram-bot-management/compare/v0.12.1...v0.13.0) (2025-04-04)
 
 
