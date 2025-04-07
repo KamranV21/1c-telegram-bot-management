@@ -966,6 +966,36 @@
                   <representationInContextMenu>Auto</representationInContextMenu>
                 </items>
                 <items xsi:type="form:Button">
+                  <name>ПроизвольныйКодКартаКода</name>
+                  <id>181</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <extendedTooltip>
+                    <name>ПроизвольныйКодКартаКодаРасширеннаяПодсказка</name>
+                    <id>182</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <commandName>Form.Command.КартаКода</commandName>
+                  <representation>Auto</representation>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <placementArea>UserCmds</placementArea>
+                  <representationInContextMenu>Auto</representationInContextMenu>
+                </items>
+                <items xsi:type="form:Button">
                   <name>ПроизвольныйКодПроверитьКод</name>
                   <id>162</id>
                   <enabled>true</enabled>
@@ -2546,6 +2576,7 @@
     <name>ПриОткрытии</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -3036,6 +3067,31 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ВидимостьКартыКода</name>
+    <title>
+      <key>az</key>
+      <value>Kod xəritəsinin görünürlüğü</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Code map visibility</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Видимость карты кода</value>
+    </title>
+    <id>23</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ПоказатьОдноразовыйПароль</name>
     <title>
@@ -3181,6 +3237,40 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.SpreadsheetShowComments</picture>
     </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>БыстрыеПодсказки</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>КартаКода</name>
+    <title>
+      <key>az</key>
+      <value>Kod xəritəsinin göstərilməsini aktivləşdirin/söndürün</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value> Enable/disable code map display</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Включить/выключить отображение карты кода</value>
+    </title>
+    <id>6</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.ExternalDataSourceFunction</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КартаКода</name>
+      </handler>
+    </action>
+    <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
