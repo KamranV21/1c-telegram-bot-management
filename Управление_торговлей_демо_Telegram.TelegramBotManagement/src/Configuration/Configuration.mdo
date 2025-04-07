@@ -39,7 +39,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.УБТ_АдминистраторБотовTelegram</defaultRoles>
   <vendor>Камран Велиев</vendor>
-  <version>0.13.0<!-- x-release-please-version --></version>
+  <version>0.13.0</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <languages uuid="296e4909-f7ad-4a22-a294-516d1b25c75e" extendedConfigurationObject="d0af2904-4c9f-4595-95c4-f0f4a6af908a">
@@ -87,6 +87,9 @@
   <commonPictures>CommonPicture.УБТ_УстановитьКоманды</commonPictures>
   <commonPictures>CommonPicture.Успешно32</commonPictures>
   <roles>Role.УБТ_АдминистраторБотовTelegram</roles>
+  <commonTemplates>CommonTemplate.УБТ_ИсходникиКонсолиКода</commonTemplates>
+  <commonModules>CommonModule.УБТ_КонсольКодаВызовСервера</commonModules>
+  <commonModules>CommonModule.УБТ_КонсольКодаКлиент</commonModules>
   <commonModules>CommonModule.УБТ_РаботаСJSON</commonModules>
   <commonModules>CommonModule.УБТ_РаботаСБотамиTelegram</commonModules>
   <commonModules>CommonModule.УБТ_РаботаСБотамиTelegramВызовСервера</commonModules>

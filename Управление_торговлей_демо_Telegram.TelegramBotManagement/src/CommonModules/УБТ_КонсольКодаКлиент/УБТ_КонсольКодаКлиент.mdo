@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb09b479-1a68-4167-9abe-571d1d125782">
+  <name>УБТ_КонсольКодаКлиент</name>
+  <synonym>
+    <key>az</key>
+    <value>Kod konsolu klient</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Code console client</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль кода клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -648,7 +648,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
-          <name>СтраницаОбщение</name>
+          <name>СтраницаПроизвольныйКодОбщение</name>
           <id>35</id>
           <items xsi:type="form:Table">
             <name>Этапы</name>
@@ -900,23 +900,182 @@
             <name>СтраницыНастройкиЭтапа</name>
             <id>56</id>
             <items xsi:type="form:FormGroup">
-              <name>СтраницаПроизвольныйКодЭтапа</name>
-              <id>58</id>
+              <name>СтраницаПроизвольныйКод</name>
+              <id>31</id>
+              <items xsi:type="form:FormGroup">
+                <name>КоманднаяПанельПроизвольногоКода</name>
+                <id>166</id>
+                <items xsi:type="form:Button">
+                  <name>ПроизвольныйКодКонструкторЗапроса</name>
+                  <id>164</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <extendedTooltip>
+                    <name>ПроизвольныйКодКонструкторЗапросаРасширеннаяПодсказка</name>
+                    <id>165</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <commandName>Form.Command.КонструкторЗапроса</commandName>
+                  <representation>Auto</representation>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <placementArea>UserCmds</placementArea>
+                  <representationInContextMenu>Auto</representationInContextMenu>
+                </items>
+                <items xsi:type="form:Button">
+                  <name>ПроизвольныйКодБыстрыеПодсказки</name>
+                  <id>168</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <extendedTooltip>
+                    <name>ПроизвольныйКодБыстрыеПодсказкиРасширеннаяПодсказка</name>
+                    <id>169</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <commandName>Form.Command.БыстрыеПодсказки</commandName>
+                  <representation>Auto</representation>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <placementArea>UserCmds</placementArea>
+                  <representationInContextMenu>Auto</representationInContextMenu>
+                </items>
+                <items xsi:type="form:Button">
+                  <name>ПроизвольныйКодКартаКода</name>
+                  <id>181</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <extendedTooltip>
+                    <name>ПроизвольныйКодКартаКодаРасширеннаяПодсказка</name>
+                    <id>182</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <commandName>Form.Command.КартаКода</commandName>
+                  <representation>Auto</representation>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <placementArea>UserCmds</placementArea>
+                  <representationInContextMenu>Auto</representationInContextMenu>
+                </items>
+                <items xsi:type="form:Button">
+                  <name>ПроизвольныйКодПроверитьКод</name>
+                  <id>162</id>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <extendedTooltip>
+                    <name>ПроизвольныйКодПроверитьКодРасширеннаяПодсказка</name>
+                    <id>163</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <commandName>Form.Command.ПроверитьКод</commandName>
+                  <representation>Auto</representation>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <placementArea>UserCmds</placementArea>
+                  <representationInContextMenu>Auto</representationInContextMenu>
+                </items>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <title>
+                  <key>az</key>
+                  <value>Komanda paneli</value>
+                </title>
+                <title>
+                  <key>en</key>
+                  <value>Command panel</value>
+                </title>
+                <title>
+                  <key>ru</key>
+                  <value>Командная панель</value>
+                </title>
+                <extendedTooltip>
+                  <name>КоманднаяПанельПроизвольногоКодаРасширеннаяПодсказка</name>
+                  <id>167</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <type>CommandBar</type>
+                <extInfo xsi:type="form:CommandBarExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </items>
               <items xsi:type="form:FormField">
-                <name>ЭтапыПроизвольныйКод</name>
-                <id>53</id>
+                <name>ПроизвольныйКод</name>
+                <id>159</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
                 <dataPath xsi:type="form:DataPath">
-                  <segments>Items.Этапы.CurrentData.ПроизвольныйКод</segments>
+                  <segments>HTML</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
                 <extendedTooltip>
-                  <name>ЭтапыПроизвольныйКодРасширеннаяПодсказка</name>
-                  <id>55</id>
+                  <name>ПроизвольныйКодРасширеннаяПодсказка</name>
+                  <id>161</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -930,8 +1089,8 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>ЭтапыПроизвольныйКодКонтекстноеМеню</name>
-                  <id>54</id>
+                  <name>ПроизвольныйКодКонтекстноеМеню</name>
+                  <id>160</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -939,19 +1098,26 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <type>InputField</type>
+                <type>HTMLDocumentField</type>
                 <editMode>Enter</editMode>
                 <showInHeader>true</showInHeader>
                 <headerHorizontalAlign>Left</headerHorizontalAlign>
                 <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:InputFieldExtInfo">
+                <extInfo xsi:type="form:HtmlFieldExtInfo">
+                  <handlers>
+                    <event>DocumentComplete</event>
+                    <name>ПроизвольныйКодДокументСформирован</name>
+                  </handlers>
+                  <handlers>
+                    <event>OnClick</event>
+                    <name>ПроизвольныйКодПриНажатии</name>
+                  </handlers>
+                  <width>50</width>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <height>10</height>
                   <autoMaxHeight>true</autoMaxHeight>
                   <horizontalStretch>true</horizontalStretch>
-                  <wrap>true</wrap>
-                  <multiLine>true</multiLine>
-                  <chooseType>true</chooseType>
-                  <typeDomainEnabled>true</typeDomainEnabled>
-                  <textEdit>true</textEdit>
+                  <verticalStretch>true</verticalStretch>
                 </extInfo>
               </items>
               <visible>true</visible>
@@ -961,19 +1127,19 @@
               </userVisible>
               <title>
                 <key>az</key>
-                <value>Mərhələnin sərbəst kodu</value>
+                <value>Sərbəst kod</value>
               </title>
               <title>
                 <key>en</key>
-                <value>Step's custom code</value>
+                <value>Custom code</value>
               </title>
               <title>
                 <key>ru</key>
-                <value>Произвольный код этапа</value>
+                <value>Произвольный код</value>
               </title>
               <extendedTooltip>
-                <name>СтраницаПроизвольныйКодЭтапаРасширеннаяПодсказка</name>
-                <id>59</id>
+                <name>СтраницаПроизвольныйКодРасширеннаяПодсказка</name>
+                <id>32</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1361,11 +1527,19 @@
             <common>true</common>
           </userVisible>
           <title>
+            <key>az</key>
+            <value>Sərbəst kod və ya ünsiyyət</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>Arbitrary code or conversation</value>
+          </title>
+          <title>
             <key>ru</key>
-            <value>Страница общение</value>
+            <value>Произвольный код или общение</value>
           </title>
           <extendedTooltip>
-            <name>СтраницаОбщениеРасширеннаяПодсказка</name>
+            <name>СтраницаПроизвольныйКодОбщениеРасширеннаяПодсказка</name>
             <id>36</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1382,85 +1556,6 @@
           <type>Page</type>
           <extInfo xsi:type="form:PageGroupExtInfo">
             <group>AlwaysHorizontal</group>
-            <showTitle>true</showTitle>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormGroup">
-          <name>СтраницаПроизвольныйКод</name>
-          <id>31</id>
-          <items xsi:type="form:FormField">
-            <name>ПроизвольныйКод</name>
-            <id>7</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.ПроизвольныйКод</segments>
-            </dataPath>
-            <extendedTooltip>
-              <name>ПроизвольныйКодРасширеннаяПодсказка</name>
-              <id>9</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ПроизвольныйКодКонтекстноеМеню</name>
-              <id>8</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>TextDocumentField</type>
-            <editMode>EnterOnInput</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:TextDocFieldExtInfo">
-              <width>50</width>
-              <autoMaxWidth>true</autoMaxWidth>
-              <height>10</height>
-              <autoMaxHeight>true</autoMaxHeight>
-              <horizontalStretch>true</horizontalStretch>
-              <verticalStretch>true</verticalStretch>
-            </extInfo>
-          </items>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>СтраницаПроизвольныйКодРасширеннаяПодсказка</name>
-            <id>32</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>Page</type>
-          <extInfo xsi:type="form:PageGroupExtInfo">
-            <group>Vertical</group>
             <showTitle>true</showTitle>
           </extInfo>
         </items>
@@ -2476,7 +2571,12 @@
     <event>FillCheckProcessingAtServer</event>
     <name>ОбработкаПроверкиЗаполненияНаСервере</name>
   </handlers>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -2602,6 +2702,396 @@
       <itemValueType/>
     </extInfo>
   </attributes>
+  <attributes>
+    <name>HTML</name>
+    <title>
+      <key>az</key>
+      <value>HTML</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>HTML</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>HTML</value>
+    </title>
+    <id>6</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>АдресМакета</name>
+    <title>
+      <key>az</key>
+      <value>Maket ünvanı</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Template address</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Адрес макета</value>
+    </title>
+    <id>8</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>АдресОбщихМодулей</name>
+    <title>
+      <key>az</key>
+      <value>Ümumi modulların ünvanı</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Common modules address</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Адрес общих модулей</value>
+    </title>
+    <id>9</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>БыстрыеПодсказки</name>
+    <title>
+      <key>az</key>
+      <value>Sürətli ipuçlar</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Quick hints</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Быстрые подсказки</value>
+    </title>
+    <id>10</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИсходникиЗагружены</name>
+    <title>
+      <key>az</key>
+      <value>Mənbələr yüklənib</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Source initialized</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Исходники загружены</value>
+    </title>
+    <id>13</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>РазделительПути</name>
+    <title>
+      <key>az</key>
+      <value>Yol ayırıcı</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Path separator</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Разделитель пути</value>
+    </title>
+    <id>14</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>АдресХраненияПеременных</name>
+    <title>
+      <key>az</key>
+      <value>Dəyişən saxlama ünvanı</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Variable storage address</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Адрес хранения переменных</value>
+    </title>
+    <id>15</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ДокументЗагружен</name>
+    <title>
+      <key>az</key>
+      <value>Sənəd yükləndi</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Document is initialized</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Документ загружен</value>
+    </title>
+    <id>16</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КаталогИсходников</name>
+    <title>
+      <key>az</key>
+      <value>Mənbə kataloqu</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Source directory</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Каталог исходников</value>
+    </title>
+    <id>17</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПоказыватьЗначенияПеременныхПослеВыполнения</name>
+    <title>
+      <key>az</key>
+      <value>İcra edildikdən sonra dəyişənlərin dəyərlərini göstərmək</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Show variable values after execution</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Показывать значения переменных после выполнения</value>
+    </title>
+    <id>18</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИндексныйФайл</name>
+    <title>
+      <key>az</key>
+      <value>İndeks faylı</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Index file</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Индексный файл</value>
+    </title>
+    <id>19</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИмяПоляHTML</name>
+    <title>
+      <key>az</key>
+      <value>HTML sahə adı</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>HTML field name</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Имя поля HTML</value>
+    </title>
+    <id>20</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ТекущийЭтап</name>
+    <title>
+      <key>az</key>
+      <value>Cari mərhələ</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Current step</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Текущий этап</value>
+    </title>
+    <id>21</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ТекущийТипСценария</name>
+    <title>
+      <key>az</key>
+      <value>Carı skriptin tipi</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Current script type</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Текущий тип сценария</value>
+    </title>
+    <id>22</id>
+    <valueType>
+      <types>EnumRef.УБТ_ТипыСценариевБотовTelegram</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ВидимостьКартыКода</name>
+    <title>
+      <key>az</key>
+      <value>Kod xəritəsinin görünürlüğü</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Code map visibility</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Видимость карты кода</value>
+    </title>
+    <id>23</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ПоказатьОдноразовыйПароль</name>
     <title>
@@ -2660,6 +3150,129 @@
     <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <formCommands>
+    <name>ПроверитьКод</name>
+    <title>
+      <key>az</key>
+      <value>Kodu yoxlamaq</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Check code</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Проверить код</value>
+    </title>
+    <id>3</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПроверитьКод</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>КонструкторЗапроса</name>
+    <title>
+      <key>az</key>
+      <value>Sorğu konstruktoru</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Query builder</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Конструктор запроса</value>
+    </title>
+    <id>4</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.QueryWizard</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КонструкторЗапроса</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>БыстрыеПодсказки</name>
+    <title>
+      <key>az</key>
+      <value>Sürətli ipuçlar</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Quick hints</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Быстрые подсказки</value>
+    </title>
+    <id>5</id>
+    <toolTip>
+      <key>az</key>
+      <value>Sürətli ipuçlarını aktivləşdirin/söndürün. Əgər ipuçları söndürülübsə, onları çağırmaq üçün CTRL+SPACE istifadə olunur</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Enable/disable quick hints. If hints are disabled, they can be triggered using CTRL+SPACE</value>
+    </toolTip>
+    <toolTip>
+      <key>ru</key>
+      <value>Включить/выключить быстрые подсказки. Если подсказки выключены, то для их вызова используется CTRL+SPACE</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.SpreadsheetShowComments</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>БыстрыеПодсказки</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>КартаКода</name>
+    <title>
+      <key>az</key>
+      <value>Kod xəritəsinin göstərilməsini aktivləşdirin/söndürün</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value> Enable/disable code map display</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Включить/выключить отображение карты кода</value>
+    </title>
+    <id>6</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.ExternalDataSourceFunction</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КартаКода</name>
+      </handler>
+    </action>
+    <representation>Picture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
@@ -2676,6 +3289,10 @@
     <handlers>
       <event>AfterWriteAtServer</event>
       <name>ПослеЗаписиНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>BeforeWrite</event>
+      <name>ПередЗаписью</name>
     </handlers>
   </extInfo>
 </form:Form>
