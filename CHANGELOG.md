@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.14.1](https://github.com/KamranV21/1c-telegram-bot-management/compare/v0.14.0...v0.14.1) (2025-04-07)
+
+
+### Bug Fixes
+
+* Устранена ошибка после удаления временных файлов ([24cabed](https://github.com/KamranV21/1c-telegram-bot-management/commit/24cabed33b9414322928ee6e589c6d6e258500e1))
+* Устранена ошибка после удаления временных файлов ([ce6502b](https://github.com/KamranV21/1c-telegram-bot-management/commit/ce6502b4c352448bd4cf37cbd2bf6b84cb60ad4d))
+
 ## [0.14.0](https://github.com/KamranV21/1c-telegram-bot-management/compare/v0.13.0...v0.14.0) (2025-04-07)
 
 
