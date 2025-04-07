@@ -3140,6 +3140,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.QueryWizard</picture>
     </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КонструкторЗапроса</name>
+      </handler>
+    </action>
     <representation>TextPicture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
