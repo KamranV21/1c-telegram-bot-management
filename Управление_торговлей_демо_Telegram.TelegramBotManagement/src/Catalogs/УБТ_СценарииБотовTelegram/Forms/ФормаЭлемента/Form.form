@@ -2753,11 +2753,11 @@
     <name>БыстрыеПодсказки</name>
     <title>
       <key>az</key>
-      <value>Tez göstərişlər</value>
+      <value>Sürətli ipuçlar</value>
     </title>
     <title>
       <key>en</key>
-      <value>Quick tips</value>
+      <value>Quick hints</value>
     </title>
     <title>
       <key>ru</key>
@@ -3137,26 +3137,45 @@
     <use>
       <common>true</common>
     </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.QueryWizard</picture>
+    </picture>
+    <representation>TextPicture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
     <name>БыстрыеПодсказки</name>
     <title>
       <key>az</key>
-      <value>Tez göstərişlər</value>
+      <value>Sürətli ipuçlar</value>
     </title>
     <title>
       <key>en</key>
-      <value>Quick tips</value>
+      <value>Quick hints</value>
     </title>
     <title>
       <key>ru</key>
       <value>Быстрые подсказки</value>
     </title>
     <id>5</id>
+    <toolTip>
+      <key>az</key>
+      <value>Sürətli ipuçlarını aktivləşdirin/söndürün. Əgər ipuçları söndürülübsə, onları çağırmaq üçün CTRL+SPACE istifadə olunur</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Enable/disable quick hints. If hints are disabled, they can be triggered using CTRL+SPACE</value>
+    </toolTip>
+    <toolTip>
+      <key>ru</key>
+      <value>Включить/выключить быстрые подсказки. Если подсказки выключены, то для их вызова используется CTRL+SPACE</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.SpreadsheetShowComments</picture>
+    </picture>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
