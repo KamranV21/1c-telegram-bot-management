@@ -1,5 +1,8 @@
 ---
 sidebar_position: 9
+title: Защита ботов
+description: Настройка приватного доступа к боту Telegram
+keywords: [1С, Telegram, защита, авторизация, приватный доступ]
 ---
 
 # Авторизация чатов

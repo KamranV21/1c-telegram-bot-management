@@ -1,5 +1,8 @@
 ---
 sidebar_position: 3
+title: Команды
+description: Создание и установка команд ботов Telegram
+keywords: [1С, Telegram, бот, команды]
 ---
 
 # Команды

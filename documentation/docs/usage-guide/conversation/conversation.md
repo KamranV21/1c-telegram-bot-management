@@ -1,5 +1,8 @@
 ---
 sidebar_position: 5
+title: Поэтапное общение
+description: Конструктор чат-ботов Telegram из 1С
+keywords: [1С, Telegram, конструктор, чат-бот, общение]
 ---
 
 # Поэтапное общение
