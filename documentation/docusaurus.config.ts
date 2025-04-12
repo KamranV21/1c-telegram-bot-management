@@ -54,6 +54,18 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: "img/social-card.png",
+    metadata: [
+      {
+        name: "keywords",
+        content:
+          "1С, Telegram, бот, интеграция, отправка сообщений, чат, вебхук, расширение 1С",
+      },
+      {
+        name: "description",
+        content:
+          "Интеграция 1С и Telegram — конструктор чат-ботов, отправка сообщений, бысрое подключение",
+      },
+    ],
     navbar: {
       title: "Управление ботами Telegram",
       logo: {
