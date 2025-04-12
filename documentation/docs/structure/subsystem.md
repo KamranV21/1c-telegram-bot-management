@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+title: Подсистема "Telegram"
+description: Новая подсистема "Telegram", доступная после подключения расширения
+keywords: [1С, Telegram, подсистема]
 ---
 
 # Подсистема "Telegram"

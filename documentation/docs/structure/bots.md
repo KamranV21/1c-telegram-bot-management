@@ -1,5 +1,8 @@
 ---
 sidebar_position: 2
+title: Боты
+description: Настройка и подключение ботов Telegram в 1С
+keywords: [1С, Telegram, бот, вебхук, регламентное задание, getUpdates]
 ---
 
 # Боты

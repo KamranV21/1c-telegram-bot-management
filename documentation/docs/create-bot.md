@@ -1,5 +1,8 @@
 ---
 sidebar_position: 2
+title: Как создать бота Telegram
+description: Инструкция по созданию ботов в Telegram
+keywords: [1С, Telegram, BotFather, токен]
 ---
 
 # Как создать бота Telegram?

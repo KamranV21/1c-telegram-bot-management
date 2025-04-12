@@ -54,6 +54,36 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: "img/social-card.png",
+    metadata: [
+      {
+        name: "keywords",
+        content:
+          "1С, Telegram, бот, интеграция, отправка сообщений, чат, вебхук, расширение 1С",
+      },
+      {
+        name: "description",
+        content:
+          "Интеграция 1С и Telegram — конструктор чат-ботов, отправка сообщений, быстрое подключение",
+      },
+      {
+        name: "og:title",
+        content: "Управление ботами Telegram - расширение для 1С",
+      },
+      {
+        name: "og:description",
+        content:
+          "Бесплатный конструктор чат-ботов Telegram - отправляйте сообщения и создавайте свои команды прямо из 1С. Подходит для большинства типовых конфигураций.",
+      },
+      {
+        name: "og:image",
+        content:
+          "https://raw.githubusercontent.com/KamranV21/1c-telegram-bot-management/refs/heads/main/readme-logo.png",
+      },
+      {
+        name: "og:url",
+        content: "https://kamranv21.github.io/1c-telegram-bot-management",
+      },
+    ],
     navbar: {
       title: "Управление ботами Telegram",
       logo: {

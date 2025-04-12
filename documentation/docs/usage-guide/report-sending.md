@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+title: Рассылка отчетов
+description: Отправка отчетов по запросу из 1С в Telegram
+keywords: [1С, Telegram, рассылка отчетов]
 ---
 
 # Рассылка отчетов

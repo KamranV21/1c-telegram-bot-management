@@ -1,5 +1,8 @@
 ---
 sidebar_position: 5
+title: Чаты
+description: Сохранение информации о пользователях и группах Telegram в 1С
+keywords: [1С, Telegram, чат, пользователь, группа]
 ---
 
 # Чаты

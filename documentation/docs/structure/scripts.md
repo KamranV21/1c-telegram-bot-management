@@ -1,5 +1,8 @@
 ---
 sidebar_position: 4
+title: Сценарии
+description: Сценарии обработки команд ботов Telegram из 1С
+keywords: [1С, Telegram, бот, сценарии, конструктор]
 ---
 
 # Сценарии
