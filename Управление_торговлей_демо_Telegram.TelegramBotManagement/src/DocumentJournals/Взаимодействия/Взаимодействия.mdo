@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cf39d7d4-9984-4a4c-8633-9e8e3e6a718c" extendedConfigurationObject="7da57c89-af2c-445a-96f7-39250f70306f">
+  <producedTypes>
+    <selectionType typeId="823f6b74-6974-49c8-9e00-a4d7814c7521" valueTypeId="e918d5fd-f141-476e-893f-9f0ccd392038"/>
+    <listType typeId="5e1e8e97-1756-4da3-a2dd-3d6c619a55b5" valueTypeId="a793ff94-afc5-4465-a18e-708733dd82f9"/>
+    <managerType typeId="00f7531b-6f61-422b-9532-ede5de0d5506" valueTypeId="0c7a43bf-49c6-42f6-83ae-cb717422a011"/>
+  </producedTypes>
+  <name>Взаимодействия</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentJournalExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <commands uuid="f24d359d-03ab-4503-96bd-7bc593a6905c" extendedConfigurationObject="8c241467-76f7-4161-a8a1-5da4a6576b75">
+    <name>СохранитьПисьмоНаДиск</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <group>Checked</group>
+    </extension>
+    <group>FormCommandBarImportant</group>
+  </commands>
+</mdclass:DocumentJournal>

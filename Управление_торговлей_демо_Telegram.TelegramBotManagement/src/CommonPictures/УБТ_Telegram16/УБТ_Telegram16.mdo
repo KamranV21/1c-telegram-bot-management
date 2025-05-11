@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4702973-2ce3-47d1-8e6d-5cf8fbb58a35">
+  <name>УБТ_Telegram16</name>
+  <synonym>
+    <key>az</key>
+    <value>Telegram(16x16)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Telegram(16x16)</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Telegram(16x16)</value>
+  </synonym>
+</mdclass:CommonPicture>

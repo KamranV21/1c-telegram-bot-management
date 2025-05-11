@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f233e29-3923-4300-96e2-8ab48a702289">
+  <producedTypes>
+    <refType typeId="bfb283be-4780-4c00-95ef-8ed21e9bb2a0" valueTypeId="70eac901-bf83-4d20-b992-a5c35ad5e18c"/>
+    <listType typeId="83398059-7e7d-4ebb-ad0e-f4fa3a12c125" valueTypeId="07b20883-2f27-4ec4-bd79-f604518e9e6b"/>
+    <managerType typeId="2bf5557a-2706-47cf-8f4b-ac7e30ef874f" valueTypeId="e740c29d-25f5-4d74-997b-0913d474012b"/>
+  </producedTypes>
+  <name>УБТ_ВидыЭлектронныхСообщений</name>
+  <synonym>
+    <key>az</key>
+    <value>Elektron mesajların növləri</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Electronic messages kinds</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Виды электронных сообщений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6acb2bfc-6176-4ab2-b8d0-300588b336a9">
+    <name>ЭлектронноеПисьмо</name>
+    <synonym>
+      <key>az</key>
+      <value>Elektron məktub</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Email</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Электронное письмо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aee9fdbd-a445-4998-a8a0-974640fcbf6f">
+    <name>Telegram</name>
+    <synonym>
+      <key>az</key>
+      <value>Telegram</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Telegram</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Telegram</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

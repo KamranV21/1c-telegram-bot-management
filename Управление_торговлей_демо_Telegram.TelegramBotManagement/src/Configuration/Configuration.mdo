@@ -70,7 +70,14 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.УБТ_Telegram</subsystems>
+  <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
+  <commonPictures>CommonPicture.ВажностьНеЗадана</commonPictures>
+  <commonPictures>CommonPicture.Информация32</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияПиктограммФайлов</commonPictures>
+  <commonPictures>CommonPicture.Предупреждение</commonPictures>
+  <commonPictures>CommonPicture.Сумма</commonPictures>
   <commonPictures>CommonPicture.УБТ_Telegram</commonPictures>
+  <commonPictures>CommonPicture.УБТ_Telegram16</commonPictures>
   <commonPictures>CommonPicture.УБТ_Авторизация</commonPictures>
   <commonPictures>CommonPicture.УБТ_Вебхук</commonPictures>
   <commonPictures>CommonPicture.УБТ_Информация</commonPictures>
@@ -93,16 +100,21 @@
   <commonModules>CommonModule.УБТ_РаботаСJSON</commonModules>
   <commonModules>CommonModule.УБТ_РаботаСБотамиTelegram</commonModules>
   <commonModules>CommonModule.УБТ_РаботаСБотамиTelegramВызовСервера</commonModules>
+  <commonModules>CommonModule.УправлениеПечатьюПереопределяемый</commonModules>
   <httpServices>HTTPService.УБТ_TelegramWebhook</httpServices>
   <scheduledJobs>ScheduledJob.УБТ_ВзаимодействиеСБотамиTelegram</scheduledJobs>
   <scheduledJobs>ScheduledJob.УБТ_ИсполнениеСценариевTelegramБотов</scheduledJobs>
+  <commonForms>CommonForm.ПечатьДокументов</commonForms>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.УБТ_БотыTelegram</catalogs>
   <catalogs>Catalog.УБТ_ОбщенияБотовTelegramСЧатами</catalogs>
   <catalogs>Catalog.УБТ_СценарииБотовTelegram</catalogs>
   <catalogs>Catalog.УБТ_ЧатыTelegram</catalogs>
+  <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
+  <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
   <enums>Enum.УБТ_ВариантыВзаимодействияСБотамиTelegram</enums>
+  <enums>Enum.УБТ_ВидыЭлектронныхСообщений</enums>
   <enums>Enum.УБТ_ТипыСценариевБотовTelegram</enums>
   <enums>Enum.УБТ_ТипыЧатовTelegram</enums>
   <informationRegisters>InformationRegister.УБТ_АвторизованныеСценарииЧатовTelegram</informationRegisters>
