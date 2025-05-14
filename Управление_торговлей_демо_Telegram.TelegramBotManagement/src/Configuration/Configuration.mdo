@@ -70,11 +70,16 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.УБТ_Telegram</subsystems>
+  <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
   <commonPictures>CommonPicture.ВажностьНеЗадана</commonPictures>
+  <commonPictures>CommonPicture.ВыбратьВариантОтчета</commonPictures>
   <commonPictures>CommonPicture.Информация32</commonPictures>
   <commonPictures>CommonPicture.КоллекцияПиктограммФайлов</commonPictures>
+  <commonPictures>CommonPicture.ОтменитьДействие</commonPictures>
+  <commonPictures>CommonPicture.ПовторитьДействие</commonPictures>
   <commonPictures>CommonPicture.Предупреждение</commonPictures>
+  <commonPictures>CommonPicture.СохранитьКак</commonPictures>
   <commonPictures>CommonPicture.Сумма</commonPictures>
   <commonPictures>CommonPicture.УБТ_Telegram</commonPictures>
   <commonPictures>CommonPicture.УБТ_Telegram16</commonPictures>
@@ -93,6 +98,7 @@
   <commonPictures>CommonPicture.УБТ_УдалитьКоманды</commonPictures>
   <commonPictures>CommonPicture.УБТ_УстановитьКоманды</commonPictures>
   <commonPictures>CommonPicture.Успешно32</commonPictures>
+  <commonPictures>CommonPicture.ЭлектронноеПисьмо</commonPictures>
   <roles>Role.УБТ_АдминистраторБотовTelegram</roles>
   <commonTemplates>CommonTemplate.УБТ_ИсходникиКонсолиКода</commonTemplates>
   <commonModules>CommonModule.УБТ_КонсольКодаВызовСервера</commonModules>
@@ -105,6 +111,7 @@
   <scheduledJobs>ScheduledJob.УБТ_ВзаимодействиеСБотамиTelegram</scheduledJobs>
   <scheduledJobs>ScheduledJob.УБТ_ИсполнениеСценариевTelegramБотов</scheduledJobs>
   <commonForms>CommonForm.ПечатьДокументов</commonForms>
+  <commonForms>CommonForm.ФормаОтчета</commonForms>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.УБТ_БотыTelegram</catalogs>
