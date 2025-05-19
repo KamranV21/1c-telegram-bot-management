@@ -11,6 +11,8 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:DocumentExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
   </extension>
   <useStandardCommands>true</useStandardCommands>
   <attributes uuid="2f0aeb97-0d57-4e2a-aa5b-43ba3d67c4d3">
@@ -93,6 +95,28 @@
       </synonym>
       <type>
         <types>CatalogRef.УБТ_ЧатыTelegram</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5c652e72-6e49-43bf-b9c7-f4107d559ac9">
+      <name>Доставлено</name>
+      <synonym>
+        <key>az</key>
+        <value>Çatdırılıb</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Delivered</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Доставлено</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
