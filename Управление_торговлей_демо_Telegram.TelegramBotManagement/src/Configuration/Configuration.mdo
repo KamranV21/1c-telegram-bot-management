@@ -101,6 +101,7 @@
   <commonPictures>CommonPicture.ЭлектронноеПисьмо</commonPictures>
   <roles>Role.УБТ_АдминистраторБотовTelegram</roles>
   <commonTemplates>CommonTemplate.УБТ_ИсходникиКонсолиКода</commonTemplates>
+  <commonModules>CommonModule.РаботаСПочтовымиСообщениямиВызовСервера</commonModules>
   <commonModules>CommonModule.УБТ_КонсольКодаВызовСервера</commonModules>
   <commonModules>CommonModule.УБТ_КонсольКодаКлиент</commonModules>
   <commonModules>CommonModule.УБТ_РаботаСJSON</commonModules>
