@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d975ac52-9903-4a01-9144-8c02a1484298" extendedConfigurationObject="8f2b8a8e-4cd3-45e3-89ae-1cc4bd0ff30a">
+  <producedTypes>
+    <objectType typeId="f470e9b1-c047-4264-aa0e-47c9fa1f0267" valueTypeId="a8309f6a-5295-4855-8c8c-7f9722090ab4"/>
+    <refType typeId="a4da7429-cee9-42f6-afb0-80f78cb2f468" valueTypeId="f4a908c2-4b14-4a11-bf5a-cf2a33264fd2"/>
+    <selectionType typeId="fd3c6e54-22fa-438a-9719-8cd3d0217a51" valueTypeId="84b9f453-51aa-478a-a4af-eedee31fe7ce"/>
+    <listType typeId="5d4d7916-350b-4973-8ad7-d252611b12dc" valueTypeId="9f4b926e-f49d-4f5b-8349-49b2bf8c942a"/>
+    <managerType typeId="40ea5333-3baf-4aef-bc8a-41354f323197" valueTypeId="01d8f766-c4f8-4861-8f31-78df36b9e4e1"/>
+  </producedTypes>
+  <name>ЭлектронноеПисьмоИсходящее</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="2f0aeb97-0d57-4e2a-aa5b-43ba3d67c4d3">
+    <name>УБТ_ВидЭлектронногоСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид электронного сообщения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УБТ_ВидыЭлектронныхСообщений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="05d84386-718b-42b2-9cb9-7e73f6d5f510">
+    <name>УБТ_БотTelegram</name>
+    <synonym>
+      <key>az</key>
+      <value>Telegram bot</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Telegram bot</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Бот Telegram</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБТ_БотыTelegram</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f97fdb8c-94c5-4e5c-8c3f-f98bdf060070" extendedConfigurationObject="ce2a8ff8-94fd-4ce2-9caa-4711e9b79ee9">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="73c91876-0a3f-4049-af98-a8c3c48d2c22">
+    <producedTypes>
+      <objectType typeId="fdf74f69-0724-4cc9-bae0-2dabb4b6ba45" valueTypeId="28e27c09-b6b0-4f3a-80dd-8cf423639418"/>
+      <rowType typeId="932e7be6-9b23-433e-a367-92b34f29b3a1" valueTypeId="66c7bfc1-7bd7-4b18-8387-3ee66f6ff5f8"/>
+    </producedTypes>
+    <name>УБТ_ЧатыПолучатели</name>
+    <synonym>
+      <key>az</key>
+      <value>Alıcı söhbətləri</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recipient chats</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Чаты-получатели</value>
+    </synonym>
+    <attributes uuid="59aa6efe-7c51-4ffc-9ed6-0e9f0394b147">
+      <name>Чат</name>
+      <synonym>
+        <key>az</key>
+        <value>Söhbət</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Chat</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Чат</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УБТ_ЧатыTelegram</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5c652e72-6e49-43bf-b9c7-f4107d559ac9">
+      <name>Доставлено</name>
+      <synonym>
+        <key>az</key>
+        <value>Çatdırılıb</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Delivered</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Доставлено</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

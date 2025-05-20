@@ -22,6 +22,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.УБТ_ЧатыTelegram.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.УБТ_ЧатыTelegram.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -145,6 +146,7 @@
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.УБТ_ЧатыTelegram.Form.ФормаЭлемента</defaultObjectForm>
