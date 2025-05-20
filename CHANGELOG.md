@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.15.0](https://github.com/KamranV21/1c-telegram-bot-management/compare/v0.14.1...v0.15.0) (2025-05-20)
+
+
+### Features
+
+* Передача сообщений из документа "Электронное письмо исходящее" ([dc9a9dd](https://github.com/KamranV21/1c-telegram-bot-management/commit/dc9a9dd5075e87fc063f63a31fa70e56701be476))
+
 ## [0.14.1](https://github.com/KamranV21/1c-telegram-bot-management/compare/v0.14.0...v0.14.1) (2025-04-07)
 
 
