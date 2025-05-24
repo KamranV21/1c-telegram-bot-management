@@ -253,6 +253,29 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="87836388-3681-407b-887a-6dc460b4480a">
+    <name>ИндивидуальноеИсполнениеСценария</name>
+    <synonym>
+      <key>az</key>
+      <value>Skriptin fərdi icrası</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Individual script execution</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Индивидуальное исполнение сценария</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="da15dcb7-b5c1-49b4-9f04-3a2395ee3f3e">
     <producedTypes>
       <objectType typeId="35935108-9750-48dc-842c-9433a69e72f3" valueTypeId="c197cf9a-0924-420c-adf4-63fcc75a3d47"/>
