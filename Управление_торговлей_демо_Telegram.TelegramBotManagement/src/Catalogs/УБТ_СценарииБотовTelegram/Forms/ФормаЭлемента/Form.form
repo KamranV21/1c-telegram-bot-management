@@ -2137,15 +2137,23 @@
         <titleLocation>Right</titleLocation>
         <toolTip>
           <key>az</key>
-          <value>Fərdi skriptlərin kodu hər bir qəbul edən söhbət üçün ayrı-ayrılıqda icra olunur. Bu cür skriptlərin kodunda &quot;Чат&quot;, &quot;ИдентификаторЧата&quot;, &quot;НаименованиеЧата&quot; və &quot;ТипЧата&quot; dəyişənlərinə müraciətə icazə verilir.</value>
+          <value>Fərdi skriptlərin kodu hər bir qəbul edən söhbət üçün ayrı-ayrılıqda icra olunur. Bu cür skriptlərin kodunda &quot;Чат&quot;, &quot;ИдентификаторЧата&quot;, &quot;НаименованиеЧата&quot; və &quot;ТипЧата&quot; dəyişənlərinə müraciətə icazə verilir. Lakin yazılmış alqoritmin mürəkkəbliyindən asılı olaraq belə skriptlər məhsuldarlığa mənfi təsir göstərə bilər.
+
+
+Nəzərə alın ki, &quot;Ünsiyyət&quot; tipli skriptlər ikinci mərhələdən etibarən həmişə fərdi şəkildə icra olunur.</value>
         </toolTip>
         <toolTip>
           <key>en</key>
-          <value>The code of individual scripts is executed separately for each recipient chat. In the code of such scripts, it is allowed to reference the variables &quot;Чат&quot;, &quot;ИдентификаторЧата&quot;, &quot;НаименованиеЧата&quot; and &quot;ТипЧата&quot;.</value>
+          <value>The code of individual scripts is executed separately for each recipient chat. In the code of such scripts, it is allowed to reference the variables &quot;Чат&quot;, &quot;ИдентификаторЧата&quot;, &quot;НаименованиеЧата&quot; and &quot;ТипЧата&quot;. However, depending on the complexity of the written algorithm, such scripts may negatively affect performance.
+
+
+Please note that &quot;Conversation&quot;-type scripts are always executed individually starting from the second step.</value>
         </toolTip>
         <toolTip>
           <key>ru</key>
-          <value>Код индивидуальных сценариев выполняется отдельно для каждого чата-получателя. В коде таких сценариев допускается обращение к переменным &quot;Чат&quot;, &quot;ИдентификаторЧата&quot;, &quot;НаименованиеЧата&quot; и &quot;ТипЧата&quot;.</value>
+          <value>Код индивидуальных сценариев выполняется отдельно для каждого чата-получателя. В коде таких сценариев допускается обращение к переменным &quot;Чат&quot;, &quot;ИдентификаторЧата&quot;, &quot;НаименованиеЧата&quot; и &quot;ТипЧата&quot;. Однако в зависимости от сложности прописанного алгоритма такие сценарии могут негативно сказаться на производительности.
+
+Обратите внимание, что сценарии типа &quot;Общение&quot; всегда исполняются индивидуально начиная со второго этапа.</value>
         </toolTip>
         <toolTipRepresentation>ShowBottom</toolTipRepresentation>
         <extendedTooltip>
@@ -2157,7 +2165,6 @@
             <common>true</common>
           </userVisible>
           <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
@@ -2207,7 +2214,7 @@
             <key>ru</key>
             <value>Укажите получателей сообщения, которое будет сформировано при исполнении сценария регламентным заданием. Если оставить список пустым, то сообщение будет разослано всем известным получателям.</value>
           </toolTip>
-          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <toolTipRepresentation>ShowTop</toolTipRepresentation>
           <items xsi:type="form:FormField">
             <name>ЧатыЧат</name>
             <id>138</id>
@@ -2497,7 +2504,6 @@
               <common>true</common>
             </userVisible>
             <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
               <horizontalAlign>Left</horizontalAlign>
