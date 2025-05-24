@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.16.0](https://github.com/KamranV21/1c-telegram-bot-management/compare/v0.15.0...v0.16.0) (2025-05-24)
+
+
+### Features
+
+* Добавлен флаг индивидуального выполнения сценариев для чатов ([47d37c5](https://github.com/KamranV21/1c-telegram-bot-management/commit/47d37c527e5093a44d5f3d5eae2592e9d81fb026))
+
 ## [0.15.0](https://github.com/KamranV21/1c-telegram-bot-management/compare/v0.14.1...v0.15.0) (2025-05-20)
 
 
