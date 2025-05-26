@@ -91,6 +91,14 @@
   <dimensions uuid="2d67f81a-7a80-472c-bcb1-dc1f9d5c12c8">
     <name>ИдентификаторСообщения</name>
     <synonym>
+      <key>az</key>
+      <value>Mesajın ID-si</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Message ID</value>
+    </synonym>
+    <synonym>
       <key>ru</key>
       <value>Идентификатор сообщения</value>
     </synonym>

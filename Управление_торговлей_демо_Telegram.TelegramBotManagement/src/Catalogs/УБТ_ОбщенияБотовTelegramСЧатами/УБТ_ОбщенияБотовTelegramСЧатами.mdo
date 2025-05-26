@@ -347,4 +347,49 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="c578ac0f-bd51-4d90-b545-c84d74efdf0e">
+    <producedTypes>
+      <objectType typeId="1a9fd19a-ed14-4e3b-b8db-9cd71b0ac622" valueTypeId="0b0de563-3b47-4396-9077-959c60979abd"/>
+      <rowType typeId="f25a0703-c8af-44d9-b88b-f37b92855d29" valueTypeId="e0c7eacd-e288-47bf-b307-c8b73adcbdfd"/>
+    </producedTypes>
+    <name>ПереданныеСообщения</name>
+    <synonym>
+      <key>az</key>
+      <value>Göndərilmiş mesajlar</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Sent messages</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Переданные сообщения</value>
+    </synonym>
+    <attributes uuid="291b195f-d18b-42d7-9bf3-ed74880ad01f">
+      <name>ИдентификаторСообщения</name>
+      <synonym>
+        <key>az</key>
+        <value>Mesajın ID-si</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Message ID</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор сообщения</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Catalog>
