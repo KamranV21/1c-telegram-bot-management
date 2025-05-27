@@ -39,7 +39,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.УБТ_АдминистраторБотовTelegram</defaultRoles>
   <vendor>Камран Велиев</vendor>
-  <version>0.16.0<!-- x-release-please-version --></version>
+  <version>0.17.0<!-- x-release-please-version --></version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <languages uuid="296e4909-f7ad-4a22-a294-516d1b25c75e" extendedConfigurationObject="d0af2904-4c9f-4595-95c4-f0f4a6af908a">
