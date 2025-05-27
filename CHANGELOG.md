@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.17.0](https://github.com/KamranV21/1c-telegram-bot-management/compare/v0.16.0...v0.17.0) (2025-05-27)
+
+
+### Features
+
+* Сохранение в ЖР ответов от Telegram при ошибках ([e776a92](https://github.com/KamranV21/1c-telegram-bot-management/commit/e776a92d643f84948a4ac7d02a62b6a25a42cf5f))
+
 ## [0.16.0](https://github.com/KamranV21/1c-telegram-bot-management/compare/v0.15.0...v0.16.0) (2025-05-24)
 
 
