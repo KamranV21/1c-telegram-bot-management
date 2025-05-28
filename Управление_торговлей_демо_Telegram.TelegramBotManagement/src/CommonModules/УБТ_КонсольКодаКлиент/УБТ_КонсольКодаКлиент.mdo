@@ -3,15 +3,15 @@
   <name>УБТ_КонсольКодаКлиент</name>
   <synonym>
     <key>az</key>
-    <value>Kod konsolu klient</value>
+    <value>Kod konsolu (klient)</value>
   </synonym>
   <synonym>
     <key>en</key>
-    <value>Code console client</value>
+    <value>Code console (client)</value>
   </synonym>
   <synonym>
     <key>ru</key>
-    <value>Консоль кода клиент</value>
+    <value>Консоль кода (клиент)</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>
