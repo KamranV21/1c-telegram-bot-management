@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.18.0](https://github.com/KamranV21/1c-telegram-bot-management/compare/v0.17.0...v0.18.0) (2025-05-30)
+
+
+### Features
+
+* Импорт сценариев из файлов JSON ([3a0bdc3](https://github.com/KamranV21/1c-telegram-bot-management/commit/3a0bdc34d8b6f5471a079873d11c6d3287ec7011))
+* Экспорт сценариев в файл JSON ([a596b06](https://github.com/KamranV21/1c-telegram-bot-management/commit/a596b06fd8fd12705dd8103cc8547a77f75d2b7c))
+
 ## [0.17.0](https://github.com/KamranV21/1c-telegram-bot-management/compare/v0.16.0...v0.17.0) (2025-05-27)
 
 
