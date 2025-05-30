@@ -85,6 +85,7 @@
   <commonPictures>CommonPicture.УБТ_Telegram16</commonPictures>
   <commonPictures>CommonPicture.УБТ_Авторизация</commonPictures>
   <commonPictures>CommonPicture.УБТ_Вебхук</commonPictures>
+  <commonPictures>CommonPicture.УБТ_Загрузить</commonPictures>
   <commonPictures>CommonPicture.УБТ_Информация</commonPictures>
   <commonPictures>CommonPicture.УБТ_Клавиатура</commonPictures>
   <commonPictures>CommonPicture.УБТ_Команды</commonPictures>
@@ -94,6 +95,7 @@
   <commonPictures>CommonPicture.УБТ_ОтключитьВебхук</commonPictures>
   <commonPictures>CommonPicture.УБТ_ПрограммныйКод</commonPictures>
   <commonPictures>CommonPicture.УБТ_РегламентноеЗадание</commonPictures>
+  <commonPictures>CommonPicture.УБТ_Сохранить</commonPictures>
   <commonPictures>CommonPicture.УБТ_Сценарий</commonPictures>
   <commonPictures>CommonPicture.УБТ_УдалитьКоманды</commonPictures>
   <commonPictures>CommonPicture.УБТ_УстановитьКоманды</commonPictures>
@@ -107,6 +109,8 @@
   <commonModules>CommonModule.УБТ_РаботаСJSON</commonModules>
   <commonModules>CommonModule.УБТ_РаботаСБотамиTelegram</commonModules>
   <commonModules>CommonModule.УБТ_РаботаСБотамиTelegramВызовСервера</commonModules>
+  <commonModules>CommonModule.УБТ_УправлениеБотамиTelegramСлужебныйВызовСервера</commonModules>
+  <commonModules>CommonModule.УБТ_УправлениеБотамиTelegramСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.УправлениеПечатьюПереопределяемый</commonModules>
   <httpServices>HTTPService.УБТ_TelegramWebhook</httpServices>
   <scheduledJobs>ScheduledJob.УБТ_ВзаимодействиеСБотамиTelegram</scheduledJobs>

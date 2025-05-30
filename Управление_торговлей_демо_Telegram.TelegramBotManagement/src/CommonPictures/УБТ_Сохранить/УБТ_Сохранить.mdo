@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94608101-8364-4591-9b21-f51bd1909f3a">
+  <name>УБТ_Сохранить</name>
+  <synonym>
+    <key>az</key>
+    <value>Saxlamaq</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Save</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Сохранить</value>
+  </synonym>
+</mdclass:CommonPicture>

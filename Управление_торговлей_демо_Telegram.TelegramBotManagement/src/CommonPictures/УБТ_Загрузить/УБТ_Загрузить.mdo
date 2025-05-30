@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3dc5d0b-af09-4d99-8842-c88a86124f49">
+  <name>УБТ_Загрузить</name>
+  <synonym>
+    <key>az</key>
+    <value>Yükləmək</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Download</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузить</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc000084-d58a-4109-b63e-8520d408c95c">
+  <name>УБТ_УправлениеБотамиTelegramСлужебныйВызовСервера</name>
+  <synonym>
+    <key>az</key>
+    <value>Telegram botlarının idarə olunması (daxili server çağırışı)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Telegram bots management (internal server call)</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Управление ботами telegram (служебный вызов сервера)</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>
