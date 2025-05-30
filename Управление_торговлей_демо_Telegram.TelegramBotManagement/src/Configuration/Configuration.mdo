@@ -85,6 +85,7 @@
   <commonPictures>CommonPicture.УБТ_Telegram16</commonPictures>
   <commonPictures>CommonPicture.УБТ_Авторизация</commonPictures>
   <commonPictures>CommonPicture.УБТ_Вебхук</commonPictures>
+  <commonPictures>CommonPicture.УБТ_Загрузить</commonPictures>
   <commonPictures>CommonPicture.УБТ_Информация</commonPictures>
   <commonPictures>CommonPicture.УБТ_Клавиатура</commonPictures>
   <commonPictures>CommonPicture.УБТ_Команды</commonPictures>
@@ -94,6 +95,7 @@
   <commonPictures>CommonPicture.УБТ_ОтключитьВебхук</commonPictures>
   <commonPictures>CommonPicture.УБТ_ПрограммныйКод</commonPictures>
   <commonPictures>CommonPicture.УБТ_РегламентноеЗадание</commonPictures>
+  <commonPictures>CommonPicture.УБТ_Сохранить</commonPictures>
   <commonPictures>CommonPicture.УБТ_Сценарий</commonPictures>
   <commonPictures>CommonPicture.УБТ_УдалитьКоманды</commonPictures>
   <commonPictures>CommonPicture.УБТ_УстановитьКоманды</commonPictures>
