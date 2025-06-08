@@ -1,8 +1,10 @@
 import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
+import dotenv from "dotenv";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+dotenv.config({ path: ".env" });
 
 const config: Config = {
   title: "Интеграция 1С и Telegram",
@@ -159,6 +161,15 @@ const config: Config = {
       additionalLanguages: ["bsl"],
     },
   } satisfies Preset.ThemeConfig,
+  customFields: {
+    apiKey: process.env.API_KEY,
+    authDomain: process.env.AUTH_DOMAIN,
+    projectId: process.env.PROJECT_ID,
+    storageBucket: process.env.STORAGE_BUCKET,
+    messagingSenderId: process.env.MESSAGING_SENDER_ID,
+    appId: process.env.APP_ID,
+    measurementId: process.env.MEASUREMENT_ID,
+  },
 };
 
 export default config;
