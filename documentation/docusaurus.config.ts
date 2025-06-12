@@ -94,6 +94,11 @@ const config: Config = {
       },
       items: [
         {
+          type: "custom-authButton",
+          label: "Войти",
+          position: "right",
+        },
+        {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
@@ -106,10 +111,6 @@ const config: Config = {
         },
         {
           type: "localeDropdown",
-          position: "right",
-        },
-        {
-          type: "docsVersionDropdown",
           position: "right",
         },
       ],
